@@ -1,3 +1,8 @@
+// This component is named "Cancer" and it displays a bar chart of leading causes of cancers and information on cancer check-ups.
+// The component is part of the healthcare statistics dashboard on the "Home" page
+// It fetches data from a public API (data.gov.sg) and uses the Chart.js library to render the chart.
+// It also renders three cards containing information on cancer check-ups.
+
 import React from "react";
 import { useState, useEffect } from "react";
 import { Bar } from 'react-chartjs-2';
@@ -7,6 +12,7 @@ import Button from "../Button";
 Chart.register(...registerables);
 
 const Cancers = () => {
+    // initialize state variables
     const [data, setData] = useState({
         labels: [],
         datasets: [{
@@ -14,12 +20,14 @@ const Cancers = () => {
             data: [],
         }]
     });
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [loading, setLoading] = useState(true); // set default state for loading as true
+
+    // useEffect hook to fetch data from API when component mounts
     useEffect(() => {
         fetch(`https://data.gov.sg/api/action/datastore_search?resource_id=82a47c6d-0539-4f1d-bdf9-ff96b9ed6cf2`)
             .then(res => res.json())
             .then((usefulData) => {
+                // parse data from API response and update state
                 console.log(usefulData.result);
                 setLoading(false);
                 setData({
@@ -38,14 +46,7 @@ const Cancers = () => {
                             label: "male",
                             data: usefulData.result.records.map((result, i) => (i > 19) && (result.gender == "male") ? result : {}),
                             backgroundColor: [
-                                "#39619B",
-                                // "#39619B",
-                                // "#FBDEE0",
-                                // "#DBE9FD",
-                                // "#E1AD01",
-                                // "#EC5863",
-                                // "#39619B",
-
+                                "#39619B"
                             ],
                             barThickness: 20,
                             lineWidth: 0
@@ -57,6 +58,7 @@ const Cancers = () => {
                 console.log(data)
             })
             .catch((e) => {
+                // handle error if API call fails
                 console.error(`An error occurred: ${e}`)
             });
     }, []);
@@ -64,7 +66,7 @@ const Cancers = () => {
     return (
         <div className="mx-20 w-5/6">
             <div className="relative w-[55vw]">
-                {loading === true ? <div className="w-full flex justify-center text-center">loading...</div> :
+                {loading === true ? <div className="w-full flex justify-center text-center">Loading...</div> :
                     <Bar
                         className={`w-max`}
                         data={data}

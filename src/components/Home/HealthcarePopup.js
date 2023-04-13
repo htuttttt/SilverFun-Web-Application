@@ -1,3 +1,6 @@
+// This component is named "HealthcarePopup" and it displays a button that navigates the user to the "Healthcare" Page
+// This component is used in "Home" Page
+
 import React from "react";
 import Button from "../Button";
 import HealthcarePinLarge from "../../assets/icons/HealthcarePinLarge.svg"

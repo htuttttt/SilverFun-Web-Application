@@ -1,3 +1,6 @@
+// This component is named "Footer" and it represents the footer section of the website
+// It typically appears at the bottom of every page and contains links to various pages and sections of the website.
+
 import React, {useState, useEffect} from "react";
 import Logo from "../assets/silverfunlogo.svg";
 import FooterProfile from "./FooterProfile";
@@ -5,17 +8,19 @@ import { Link } from "react-router-dom";
 import { AuthProvider, useAuth } from "../AuthContext"
 
 const Footer = () => {
-  const { currentUser } = useAuth()
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const { currentUser } = useAuth() //retrieve the current user from AuthContext
+  const [isLoggedIn, setIsLoggedIn] = useState(false); //set a default state for isLoggedIn as false
 
-  useEffect(() => {
-    if (currentUser === null) {
-      setIsLoggedIn(false)
+  // useEffect hook is used to update the state of isLoggedIn based on the current user
+  useEffect(() => { 
+    if (currentUser === null) { //if user is not logged in, set isLoggedIn as false
+      setIsLoggedIn(false) 
     }
-    else {
+    else { //if user is logged in, set isLoggedIn as true
       setIsLoggedIn(true)
     }
-  }, [currentUser]);
+  }, [currentUser]); //specify the dependency array to only run the effect when the currentUser changes
+
   return (
     <div className={`w-full bg-blue-100 h-min`}>
       <div
@@ -25,7 +30,7 @@ const Footer = () => {
           <Link to="/"><img src={Logo} className=" p-5 px-10" alt="logo" /></Link>
           {isLoggedIn ? <FooterProfile /> : <div className = "w-44 h-56"></div>}
         </div>
-        <div className={`flex p-5 justify-around text-gray-600 font-["Rubik"] w-4/6`}>
+        <div className={`flex p-5 justify-around text-gray-600 font-["Rubik"] w-9/12`}>
           <div className={`flex flex-col items-left px-5`}>
             <div className={`text-lg font-["RubikBold"] pb-3 text-black`}>
               HOME
@@ -40,9 +45,9 @@ const Footer = () => {
               ACTIVITIES
             </div>
             <div className={`flex flex-col`}>
-              <Link to="/Activities" className={`pb-2`}>Silver Infocomm Centers</Link>
+              <Link to="/Activities" className={`pb-2`}>Libraries</Link>
+              <Link to="/Activities" className={`pb-2`}>Hawker Centers</Link>
               <Link to="/Activities" className={`pb-2`}>Fitness Facilities</Link>
-              <Link to="/Activities" className={`pb-2`}>Reading Activities</Link>
             </div>
           </div>
           <div className={`flex flex-col items-left px-5 `}>
@@ -51,8 +56,8 @@ const Footer = () => {
             </div>
             <div className={`flex flex-col`}>
               <Link to="/Healthcare" className={`pb-2`}>Eldercare Services</Link>
-              <Link to="/Healthcare" className={`pb-2`}>Hospital/Clinics</Link>
-              <Link to="/Healthcare" className={`pb-2`}>COVID-19</Link>
+              <Link to="/Healthcare" className={`pb-2`}>Pharmacies</Link>
+              <Link to="/Healthcare" className={`pb-2`}>Clinics</Link>
             </div>
           </div>
           <div className={`flex flex-col items-left px-5`}>

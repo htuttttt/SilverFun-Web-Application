@@ -1,3 +1,6 @@
+// This page is named "AboutUs" and it displays information about our team's vision and mission while creating this web application
+// It also contains information about our team members
+
 import Header from "../components/Header";
 import htut from "../assets/images/htut.jpg";
 import jingxuan from "../assets/images/jingxuan.jpg";

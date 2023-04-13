@@ -1,3 +1,5 @@
+// This component is named "EmptyPopup" and is used as a styling base for "HealthcarePopup" and "ActivitiesPopup"
+
 import React from "react";
 import Button from "../Button";
 import ActivityPinLarge from "../../assets/icons/ActivityPinLarge.svg"

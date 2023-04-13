@@ -1,7 +1,9 @@
+// This component is named "ActivityPopup" and it displays a button that navigates the user to the "Activities" Page
+// This component is used in "Home" Page
+
 import React from "react";
 import Button from "../Button";
 import ActivityPinLarge from "../../assets/icons/ActivityPinLarge.svg"
-
 
 const ActivitiesPopup = () => {
   return (

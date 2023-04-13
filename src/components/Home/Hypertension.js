@@ -1,3 +1,8 @@
+// This component is named "Hypertension" and it displays a bar chart of the prevalence of Hypertension, Diabetes, High Total Cholesterol, Obesity and Daily Smoking and information on musculoskeletal disorder.
+// The component is part of the healthcare statistics dashboard on the "Home" page
+// It fetches data from a public API (data.gov.sg) and uses the Chart.js library to render the chart.
+// It also renders three cards containing information on musculoskeletal disorder.
+
 import React from "react";
 import Button from "../Button";
 import HealthcarePin from "../../assets/icons/HealthcarePin.svg"

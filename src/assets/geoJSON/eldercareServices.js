@@ -1,3 +1,10 @@
+// A GeoJSON FeatureCollection representing eldercare services in Singapore. Data is retrieved from data.gov.sg
+// @typedef {Object} EldercareServicesCollection
+// @property {string} type - The type of the GeoJSON object, always "FeatureCollection".
+// @property {Object} crs - The coordinate reference system for the GeoJSON object.
+// @property {Object} crs.properties - The properties of the coordinate reference system.
+// @property {Object[]} features - An array of GeoJSON Feature objects, each representing an eldercare service.
+
 export const eldercareServices = {
     "type": "FeatureCollection",
     "name": "ELDERCARE",

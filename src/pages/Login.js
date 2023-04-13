@@ -1,38 +1,41 @@
+// This page is named "Login" and it displays a form for users to log in.
+// When the user clicks the login button, the entered details are passed to the authentication function.
+// If login is successful, the user is redirected to the homepage. If login fails, an error message is displayed to the user.
+
 import { useState } from "react";
-
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { TextField } from '@mui/material';
-// import { onAuthStateChanged, signInWithEmailAndPassword } from "firebase/auth";
-// import { auth } from "../firebase-config";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../AuthContext"
 import { ReactNotifications, Store } from 'react-notifications-component'
 import 'react-notifications-component/dist/theme.css'
-import {Link} from "react-router-dom";
-
 
 
 function Login() {
+  // initialise state variables for the login form
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
+
+  // Navigate function from react-router-dom for programmatic navigation
   const navigate = useNavigate();
+
+  // Authentication function from the useAuth hook
   const { login } = useAuth()
 
-
-  // const [user,setUser] = useState({});
-
-
+  // Function to handle login submission
   const signin = async () => {
     try {
+      // Attempt to login with entered email and password
       const user = await login(
         loginEmail,
         loginPassword
       );
+      // If login is successful, log the user object and redirect to homepage
       console.log(user);
       navigate("/");
     } catch (error) {
+      // If login fails, log the error message and display a notification to the user
       console.log(error.message);
       Store.addNotification({
         title: "Error",

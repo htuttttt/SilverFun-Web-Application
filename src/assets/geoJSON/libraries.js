@@ -1,3 +1,10 @@
+// A GeoJSON FeatureCollection representing libraries in Singapore. Data is retrieved from data.gov.sg
+// @typedef {Object} LibraryCollection
+// @property {string} type - The type of the GeoJSON object, always "FeatureCollection".
+// @property {Object} crs - The coordinate reference system for the GeoJSON object.
+// @property {Object} crs.properties - The properties of the coordinate reference system.
+// @property {Object[]} features - An array of GeoJSON Feature objects, each representing a library.
+
 export const library = {
 "type": "FeatureCollection",
 "name": "LIBRARIES",

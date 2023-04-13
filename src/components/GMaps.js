@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+// This component is named "GMaps" and it is used to display a Google Map Block of Singapore and pan to the user's current location
+// This component is used in "Home", "Activities" and "Heathcare" pages
+
+import React from "react";
 import {
     GoogleMap,
     useLoadScript,
@@ -17,105 +20,60 @@ import {
     ComboboxList,
     ComboboxOption,
 } from "@reach/combobox";
-// import { formatRelative } from "date-fns";
-
-// import "@reach/combobox/styles.css";
 import mapStyles from "../Styles/mapStyles";
 import compass from "../assets/icons/compass.svg";
 import { useActivityLocationUpdate } from "../ActivityLocationContext"
 
 
+// libraries to be loaded from the Google Maps API
+// initialises the "places" library which is used for autocomplete search and location data
 const libraries = ["places"];
+
+// styling for the map container
 const mapContainerStyle = {
     height: "500px",
     width: "1000px",
 };
+
+// custom options for the Google Map
 const options = {
-    styles: mapStyles,
-    disableDefaultUI: true,
-    zoomControl: true,
+    styles: mapStyles, // custom styles for the map
+    disableDefaultUI: true, // hide the default UI components
+    zoomControl: true, // show zoom control
 };
+
+// default center coordinates for the map
 const center = {
     lat: 1.3521,
     lng: 103.8198,
 };
 
-
-
+// main component for the Google Map
 export default function GMaps(url1, state1, url2, state2, url3, state3, onClickHandler) {
+    // load the Google Maps API
     const { isLoaded, loadError } = useLoadScript({
-        googleMapsApiKey: process.env.REACT_APP_GMAPS_API_KEY,
-        libraries,
+        googleMapsApiKey: process.env.REACT_APP_GMAPS_API_KEY, // API key
+        libraries, // libraries to be loaded
     });
 
-    // addressToRender;
-    // console.log(addressToRender);
-    // const [addressToRender, setAddressToRender] = useState()
-    // const [markers, setMarkers] = React.useState([]);
-    // const [selected, setSelected] = React.useState(null);
-
-
-    //   const [state1, setState1] = React.useState([]);
-    //   const [state2, setState2] = React.useState([]);
-    //   const [state3, setState3] = React.useState([]);
-
-    //   const onMapClick = React.useCallback((e) => {
-    //     setMarkers((current) => [
-    //       ...current,
-    //       {
-    //         lat: e.latLng.lat(),
-    //         lng: e.latLng.lng(),
-    //         time: new Date(),
-    //       },
-    //     ]);
-    //   }, []);
-
+    // reference to the map
     const mapRef = React.useRef();
+    
+    // callback function to be executed when the map is loaded
     const onMapLoad = React.useCallback((map) => {
         mapRef.current = map;
     }, []);
 
+    // callback function to pan the map to a given location
     const panTo = React.useCallback(({ lat, lng }) => {
         mapRef.current.panTo({ lat, lng });
         mapRef.current.setZoom(14);
     }, []);
 
-
-
-    // const {
-    //     ready,
-    //     value,
-    //     suggestions: { status, data },
-    //     setValue,
-    //     clearSuggestions,
-    // } = usePlacesAutocomplete({
-    //     requestOptions: {
-    //         location: { lat: () => 1.3521, lng: () => 103.8198 },
-    //         radius: 50 * 1000,
-    //     },
-    // });
-
-    // https://developers.google.com/maps/documentation/javascript/reference/places-autocomplete-service#AutocompletionRequest
-
-    // const handleInput = (e) => {
-    //     setValue(e.target.value);
-    // };
-
-    // const handleSelect = async (address) => {
-    //     setValue(address, false);
-    //     clearSuggestions();
-
-    //     try {
-    //         const results = await getGeocode({ address });
-    //         const { lat, lng } = await getLatLng(results[0]);
-    //         // setToRender({ lat, lng });
-    //         setMapsReady(true);
-    //         panTo({ lat, lng });
-    //     } catch (error) {
-    //         console.log("Error: ", error);
-    //     }
-    // };
+    // show an error message if the Google Maps API fails to load
     if (loadError) return "Error";
+
+    // show a loading message while the Google Maps API is being loaded
     if (!isLoaded) return "Loading...";
 
     return (
@@ -137,174 +95,37 @@ export default function GMaps(url1, state1, url2, state2, url3, state3, onClickH
                     {url1.state2 ? <KmlLayer url={String(url1.url2)} /> : <div />}
                     {url1.state3 ? <KmlLayer url={String(url1.url3)} /> : <div />}
 
-                    {/* {markers.map((marker) => (
-          <Marker
-            key={`${marker.lat}-${marker.lng}`}
-            position={{ lat: marker.lat, lng: marker.lng }}
-            onClick={() => {
-              setSelected(marker);
-            }}
-            icon={{
-              url: `/bear.svg`,
-              origin: new window.google.maps.Point(0, 0),
-              anchor: new window.google.maps.Point(15, 15),
-              scaledSize: new window.google.maps.Size(30, 30),
-            }}
-          />
-        ))} */}
-
-                    {/* {selected ? (
-          <InfoWindow
-            position={{ lat: selected.lat, lng: selected.lng }}
-            onCloseClick={() => {
-              setSelected(null);
-            }}
-          >
-            <div>
-              <h2>
-                <span role="img" aria-label="bear">
-                  🐻
-                </span>{" "}
-                Alert
-              </h2>
-              <p>Spotted {formatRelative(selected.time, new Date())}</p>
-            </div>
-          </InfoWindow>
-        ) : null} */}
                 </GoogleMap>
             </div>
-            <div classname="mt-4" >
-                <Search panTo={panTo} />
-
-            </div>
+            
 
         </div>
     );
-    //         <div classname="mt-4" >
-    //         <div class="flex justify-center bg-white">
-    //         <div className="flex justify-center border-2 border-gray-300 h-10 w-72 rounded-lg text-sm focus:outline-none shadow items-center mt-5">
-    //             <Combobox onSelect={(handleSelect)}>
-    //                 <ComboboxInput
-    //                     value={value}
-    //                     onChange={handleInput}
-    //                     disabled={!ready}
-    //                     className="text-center"
-    //                     placeholder="Search your location"
-    //                 />
-    //                 <ComboboxPopover className="bg-white">
-    //                     <ComboboxList>
-    //                         {status === "OK" &&
-    //                             data.map(({ id, description }) => (
-    //                                 <ComboboxOption key={id} value={description} />
-    //                             ))}
-    //                     </ComboboxList>
-    //                 </ComboboxPopover>
-    //             </Combobox>
-    //         </div>
-    //     </div>
-
-    //         </div>
-
-    //     </div>
-    // );
 }
 
+// This component renders a button to pan the map to the user's current location
 function Locate({ panTo }) {
-    return (<div className="w-full flex justify-center">
+    return (
+    <div className="w-full flex justify-center">
         <button
-            className="w-max flex"
+            className=" w-max flex hover:drop-shadow-xl"
             onClick={() => {
+                 // Get the user's current position when button is clicked
                 navigator.geolocation.getCurrentPosition(
                     (position) => {
+                        // If the user's location is found, pan the map to that location
                         panTo({
                             lat: position.coords.latitude,
                             lng: position.coords.longitude,
                         });
                     },
+                    // If the user's location cannot be found, do nothing
                     () => null
                 );
             }}
         >
             <img classname="p-2 z-10 px-10" src={compass} alt="compass" />
-            <p classname="w-max mx-10 text-sm">Pan to current location</p>
+            <p classname="w-max text-sm">Pan to current location</p>
         </button></div>
-    );
-}
-
-
-
-function Search({ panTo }) {
-    const toggleActivity = useActivityLocationUpdate();
-    console.log('dfsjd', toggleActivity)
-
-    const {
-        ready,
-        value,
-        suggestions: { status, data },
-        setValue,
-        clearSuggestions,
-    } = usePlacesAutocomplete({
-        requestOptions: {
-            location: { lat: () => 1.3521, lng: () => 103.8198 },
-            radius: 50 * 1000,
-            componentRestrictions: { country: "sg" }
-        },
-    });
-
-    //     // https://developers.google.com/maps/documentation/javascript/reference/places-autocomplete-service#AutocompletionRequest
-
-    const handleInput = (e) => {
-        setValue(e.target.value);
-    };
-
-    const handleSelect = async (address) => {
-        setValue(address, false);
-        clearSuggestions();
-
-        try {
-            const results = await getGeocode({ address });
-            const { lat, lng } = await getLatLng(results[0]);
-            // setToRender({ lat, lng });
-            // setMapsReady(true);
-            console.log(address)
-            console.log(lat)
-            toggleActivity({ lat, lng });
-
-            panTo({ lat, lng });    // { lat: lat, lng: lng }
-        } catch (error) {
-            console.log("Error: ", error);
-        }
-    };
-
-    return (
-        // <div class="align middle">
-        //     <input
-        //       class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 w-72 rounded-lg text-sm focus:outline-none shadow"
-        //       type="text"
-        //       id="header-search"
-        //       placeholder="Search for activities near you"
-        //       name="s" />
-        //   </div>
-        <div class="flex justify-center">
-            <div className="flex justify-center border-2 border-gray-300 h-10 w-72 rounded-lg text-sm focus:outline-none shadow items-center mt-5">
-                <Combobox onSelect={handleSelect}>
-                    <ComboboxInput
-                        value={value}
-                        onChange={handleInput}
-                        disabled={!ready}
-                        className="text-center bg-blue-100"
-                        placeholder="Search your location"
-                    />
-                    <ComboboxPopover className="bg-white">
-                        <ComboboxList>
-                            {status === "OK" &&
-                                data.map(({ id, description }) => (
-                                    <ComboboxOption key={id} value={description} />
-                                ))}
-                        </ComboboxList>
-                    </ComboboxPopover>
-                </Combobox>
-            </div>
-        </div>
     );
 }

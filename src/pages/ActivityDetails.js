@@ -1,3 +1,6 @@
+// This page is named "ActivityDetails" and it is used to display the address, opening hours, website and extra information of the activity 
+// This page can be navigated to by going to the "Activities" page and pressing any of the 5 boxes that show the 5 nearest locations to the user's location
+
 import Header from "../components/Header";
 import React from "react"
 import { Link, useLocation } from "react-router-dom";
@@ -14,7 +17,7 @@ import { useNavigate } from "react-router-dom";
 function ActivityDetails() {
 
   const location = useLocation();
-  let navigate = useNavigate();
+  let navigate = useNavigate(); // React Router hook to navigate between routes
   
   return (
     <div>
@@ -57,16 +60,6 @@ function ActivityDetails() {
               {location.state.address}
             </p>
           </div>
-
-          {/* JWL location */}
-          {/* <div>
-            <img
-              src="https://raw.githubusercontent.com/sktlim/silverfun-webapp/hanyu/src/assets/images/JWPL_Map.png"
-              class="px-10 py-5 max-w-2xl h-auto w-full"
-              alt="Jurong West Public Library Google Maps"
-            />
-          </div> */}
-
         </div>
 
         {/* right */}
@@ -86,13 +79,7 @@ function ActivityDetails() {
                 alt="Globe icon"
               />
               {/* website url */}
-              <button class="mt-1 px-2 underline text-lg font-normal font-['Roboto'] py-0 my-0 text-left" onClick = {event => {window.open(location.state.link === ""? "https://www.google.com": location.state.link)}}>{location.state.link === ""? "https://www.google.com": location.state.link}</button>
-              {/* exit icon */}
-              {/* <img
-                src="https://cdn-icons-png.flaticon.com/512/3580/3580189.png"
-                class="w-4 h-4 mt-2 ml-28"
-                alt="Exit icon"
-              /> */}
+              <button class="mt-1 px-2 underline text-base font-normal font-['Roboto'] py-0 my-0 text-left" onClick = {event => {window.open(location.state.link === ""? "https://www.google.com": location.state.link)}}>{location.state.link === "" ? "https://www.google.com": location.state.link}</button>
             </div>
             {/* line 3 */}
             <div class=" pt-5 px-2 text-left ">

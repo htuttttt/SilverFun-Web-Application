@@ -1,3 +1,7 @@
+// This page is named "HealthcareDetails" and it is used to display the address, opening hours, website and a button to schedule appointments
+// The "Schedule Appointment" button navigates the user to an external website of the healthcare service
+// This page can be navigated to by going to the "Healthcare" page and pressing any of the 5 boxes that show the 5 nearest locations to the user's location
+
 import Header from "../components/Header";
 import React from "react"
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -9,7 +13,7 @@ import eldercarePic from "../assets/images/eldercarePic.jpg"
 function HealthcareDetails() {
 
   const location = useLocation();
-  let navigate = useNavigate();
+  let navigate = useNavigate(); // React Router hook to navigate between routes
 
   return (
     <div>
@@ -33,7 +37,7 @@ function HealthcareDetails() {
           <div>
             {/* photo */}
             <img
-              src={location.state.type == "covid" ? covidPic : location.state.type == "pharmacy" ? pharmacyPic: location.state.type == "eldercare"? eldercarePic: <div></div>}
+              src={location.state.type == "clinic" ? covidPic : location.state.type == "pharmacy" ? pharmacyPic: location.state.type == "eldercare"? eldercarePic: <div></div>}
               class="py-10 px-10 max-w-2xl h-auto w-full"
               alt="Jurong Medical Centre Pharmacy"
             />
@@ -53,16 +57,6 @@ function HealthcareDetails() {
                 {location.state.address}
               </p>
             </div>
-
-            {/* JWL location */}
-            {/* <div>
-              <img
-                src="https://github.com/sktlim/silverfun-webapp/blob/hanyu/src/assets/images/Jurong%20Medical%20Center%20Location.png?raw=true"
-                class="px-10 py-5 max-w-2xl h-auto w-full"
-                alt="Jurong Medical Center Google Maps"
-              />
-            </div> */}
-
           </div>
 
           {/* right */}
@@ -83,13 +77,7 @@ function HealthcareDetails() {
               />
               {/* website url */}
               
-              <button class="mt-1 px-2 underline text-lg font-normal font-['Roboto'] py-0 my-0 text-left" onClick = {event => {window.open(location.state.link === ""? "https://www.google.com": location.state.link)}}>{location.state.link === ""? "https://www.google.com": location.state.link}</button>
-              {/* exit icon */}
-              {/* <img
-                src="https://cdn-icons-png.flaticon.com/512/3580/3580189.png"
-                class="w-4 h-4 mt-2 ml-28"
-                alt="Exit icon"
-              /> */}
+              <button class="mt-1 px-2 underline text-base font-normal font-['Roboto'] py-0 my-0 text-left" onClick = {event => {window.open(location.state.link === "" || location.state.link === null ? "https://www.google.com": location.state.link)}}>{location.state.link === "" || location.state.link === null ? "https://www.google.com": location.state.link}</button>
             </div>
             {/* line 3 */}
             <div class=" pt-5 px-2 text-left ">

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
@@ -13,9 +12,6 @@ import HealthcareDetails from './pages/HealthcareDetails';
 import EditProfile from './pages/EditProfile';
 import Activities from './pages/Activities';
 import ActivityDetails from './pages/ActivityDetails';
-import Notifications from './pages/Notifications';
-import Preferences from './pages/Preferences';
-import GMaps from './components/GMaps';
 import {
   BrowserRouter as Router,
   Routes,
@@ -30,10 +26,8 @@ root.render(
     <AuthProvider>
       <ActivityLocationProvider>
       <Routes>
-        {/* <Route path='/' element={<Home />} /> */}
         <Route path='/*' element={<Home />} />
         <Route path='/AboutUs' element={<AboutUs />} />
-        {/* <Route path='/Home/*' element={<Home />} /> */}
         <Route path='/Login' element={<Login />} />
         <Route path='/Signup' element={<Signup />} />
         <Route path='/Activities' element={<Activities />} />
@@ -41,8 +35,6 @@ root.render(
         <Route path='/EditProfile' element={<EditProfile />} />
         <Route path='/Healthcare' element={<Healthcare />} />
         <Route path='/HealthcareDetails' element={<HealthcareDetails />} />
-        <Route path='/Notifications' element={<Notifications />} />
-        <Route path='/Preferences' element={<Preferences />} />
       </Routes>
       </ActivityLocationProvider>
     </AuthProvider>

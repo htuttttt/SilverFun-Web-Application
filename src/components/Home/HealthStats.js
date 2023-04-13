@@ -1,5 +1,5 @@
-import React from "react";
-import searchIcon from "../../assets/icons/search.svg"
+// This component is named "HealthStats" and it is a dashboard that displays either "Cancer", "DALYs" or "Hpertension" component based on user's input 
+
 import { Link } from "react-router-dom";
 import Cancers from "./Cancers";
 import Hypertension from "./Hypertension";

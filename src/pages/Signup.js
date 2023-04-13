@@ -1,5 +1,8 @@
-import { useState } from "react";
+// This page is named "Signup" and it renders a signup form for users to create an account 
+// When the user clicks the sign up button, the entered details are passed to the authentication function and registered.
+// If sign up is successful, the user is redirected to the homepage. If sign up fails, an error message is displayed to the user.
 
+import { useState } from "react";
 import Header from "../components/Header";
 import { TextField } from '@mui/material';
 import Footer from "../components/Footer";
@@ -12,33 +15,37 @@ import { Link } from "react-router-dom";
 
 
 function Signup() {
+  // initialise state variables for the sign up form
   const [registerEmail, setRegisterEmail] = useState("");
   const [registerPassword, setRegisterPassword] = useState("");
   const [cfmPassword, cfmRegisteredPassword] = useState("");
   const [error, setError] = useState("");
+
+  // Authentication function from the useAuth hook
   const { signup } = useAuth()
 
+  // Navigate function from react-router-dom for programmatic navigation
   const navigate = useNavigate();
 
-  // const [user,setUser] = useState({});
-
-  // onAuthStateChanged(auth, (currentUser) =>{
-  //   setUser(currentUser);
-  // })
-
+  // Function to handle login submission
   const register = async () => {
+    // Check if the re-entered password matches the password
     if (registerPassword !== cfmPassword) {
       return setError("Passwords do not match")
     }
 
     try {
+      // Attempt to sign up with entered email and password
       const user = await signup(
         registerEmail,
         registerPassword
       );
+      // If sign up is successful, register the user object and redirect to homepage
       console.log(user);
-      navigate("/Preferences");
+      navigate("/Home");
+
     } catch (error) {
+      // If sign up fails, log the error message and display a notification to the user
       setError(error.message);
       Store.addNotification({
         title: "Error",

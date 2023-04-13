@@ -1,8 +1,11 @@
+// This page is named "Activities" and it's main functionality is to show the activities available for fitness facilities, hawker centres, and libraries on a map 
+// The page also renders the 5 nearest activities to the user's location based on each filter: fitness facilities, hawker centres, and libraries
+// This page serves as a means for elderly to easily find activities in Singapore, while also being aware of those that are near them.
+
 import Header from "../components/Header";
 import React, { useEffect } from "react";
 import Squats from "../assets/icons/Squats.png";
 import Book from "../assets/icons/Book.png";
-import Bus from "../assets/icons/Bus.png";
 import Boxes from "../components/Boxes";
 import Food from "../assets/icons/Food.png";
 import GMaps from "../components/GMaps";
@@ -16,120 +19,117 @@ import {useActivityLocation, useActivityLocationUpdate, ActivityLocationProvider
 
 
 function Activities() {
-  const url1 = String('https://storage.googleapis.com/swe-silverfun-app.appspot.com/gyms-sg-kml.kml');
+  // URLs for KML files containing locations of fitness facilities, hawker centres, and libraries in Singapore
+  const url1 = "https://storage.googleapis.com/swe-silverfun-app.appspot.com/gyms-sg-kml.kml";
   const url2 = "https://storage.googleapis.com/swe-silverfun-app.appspot.com/hawker-centres-kml.kml";
   const url3 = "https://storage.googleapis.com/swe-silverfun-app.appspot.com/libraries.kml";
 
+  // States for toggling markers for fitness facilities, hawker centres, and libraries
   const [state1, setState1] = React.useState(false);
   const [state2, setState2] = React.useState(false);
-  const [state3, setState3] = React.useState(true);
+  const [state3, setState3] = React.useState(false);
 
-  const obj = {
-    url1: url1,
-    url2: url2,
-    url3: url3,
-    state1: true,
-    state2: false,
-    state3: true
-  }
-
+  // State for search filter input
   const [filter, setFilter] = React.useState("library");
+
+  // States for loading and rendering the map
   const [isLoading, setLoading] = React.useState(true)
   const [isRendering, setRendering] = React.useState(true)
 
-  const [toRender, setToRender] = React.useState()
-  const [mapsReady, setMapsReady] = React.useState(false)
-
+  // States for displaying nearest fitness facilties, hawker centres, and libraries around the user's location
   const [topLibraries, setTopLibraries] = React.useState(null);
+  const [topHawkers, setTopHawkers] = React.useState(null);
+  const [topFitness, setTopFitness] = React.useState(null);
 
-  const topHawkers = ([
-    ["Boon Lay Place Market and Food Village", "221A Boon Lay Pl, Singapore 641221", "deliveroo.com.sg", "https://mustsharenews.com/wp-content/uploads/2021/07/boon-lay-place-food-village-1.jpg"],
-    ["Jurong West 505 Market & Food Centre", "505 Jurong West Street 52, Singapore 640505", "deliveroo.com.sg", "https://findd.sg/custom/domain_1/image_files/sitemgr_photo_1800.jpg"],
-    ["Taman Jurong Food Centre", "3 Yung Sheng Rd, Singapore 618499", "foodpanda.sg", "https://live.staticflickr.com/65535/49171883881_d79fe7befd_h.jpg"],
-    ["Bukit Batok Street 11 Food", "155 Bukit Batok Street 11, #01-01, Singapore 650155", "foodpanda.sg", "http://2.bp.blogspot.com/-BngS4dRuiko/VayTYJD9uaI/AAAAAAAADYM/9mg70GVNX0c/w1200-h630-p-k-no-nu/Yong%2BXing%2BCoffeeshop%2BBlk%2B154%2BSt%2B11-Bkt%2BBatok%2B%2528i%2529.PNG"],
-    ["Meng Soon Huat Food Centre", "359 Bukit Batok Street 31, #01-401 Block 359, Singapore 650359", "foodpanda.sg", "https://yeeppi.files.wordpress.com/2020/03/20200229_0750024163557313326853064.jpg?w=540"], Food, "hawker"])
-
-  const topFitness = ([
-    ["Jurong West ActiveSG Gym", "20 Jurong West Street 93 Singapore 648965", "https://www.myactivesg.com/facilities/jurong-west-activesg-gym", "https://tinyurl.com/yt7w7dkm"],
-    ["Amore Fitness @ Jurong Point 2", "63 Jurong West Central 3, #03-17, Singapore 648886", "https://amorefitness.com.sg", "https://tinyurl.com/34bmdjn5"],
-    ["Jurong East ActiveSG Gym", "21 Jurong East Street 31 Singapore 609517", "https://www.myactivesg.com/facilities/jurong-east-activesg-gym", "https://www.myactivesg.com/-/media/SSC/Consumer/Images/Facilities/Jurong-East-ActiveSG-Gym/Jurong-East-ActiveSG-Gym1.ashx"],
-    ["OMG Yoga", "134 Jurong Gateway Rd, Singapore 600134", "https://www.yogasingapore.net", "https://www.yogasingapore.net/wp-content/uploads/2014/08/privateyoga.jpg"],
-    ["Gold's Gym @ IBP Jurong East", "2 International Business Park, #01-05, Singapore 609930", "http://www.goldsgym.com.sg/ibp-jurong-east", "https://thegrandstand.com.sg/wp-content/uploads/2019/04/DSC01019.jpg"], Squats, "fitness"])
-
+  // State for displaying loading options while map is loading
   const loadingOptions = ([
     ["loading", "loading", "loading"],
     ["loading", "loading", "loading"],
     ["loading", "loading", "loading"],
     ["loading", "loading", "loading"],
     ["loading", "loading", "loading"], "loading"])
+  
+  // State for displaying the nearest activities to the users based on their search filter appiled
+  // Default value is loadingOptions
   const [display, setDisplay] = React.useState(loadingOptions);
+  
+  // State variable that holds the coordinates of a location that the user has selected
+  const inputfields = useActivityLocation();
 
+  // A state variable that holds a boolean value indicating whether the user has clicked on the location input field or not.
+  // Default value is false
+  const [inputClick, setInputClick] = React.useState(false)
 
-  //library
+  // useEffect hook to log the inputfields value whenever it changes
+  useEffect(() => {
+    console.log("inputfields", inputfields)
+  }, [inputfields]);
+
+  // library
+  // Blob object that holds the data for a GeoJSON file for library locations.
   const libraryData = new Blob([JSON.stringify(library, null, 2)], {
     type: "application/json",
   });
 
-  const inputfields = useActivityLocation();
-  const {inputfieldsupdate} = useActivityLocationUpdate();
-  const [inputClick, setInputClick] = React.useState(false)
-
-  useEffect(() => {
-    console.log("inputfields", inputfields)
-    libform.lng = inputfields.lng
-    libform.lat = inputfields.lat
-  }, [inputfields]);
-
+  // FormData object that holds the library GeoJSON data and the latitude and longitude coordinates of the selected location
   const libform = new FormData();
   libform.append("data", libraryData, "libraries.geojson");
   libform.append("lat", String(inputfields.lat));
   libform.append("lng", String(inputfields.lng));
 
+  // specifies the HTTP POST request method and body data for the library data upload
   const liboptions = {
     method: "POST",
     body: libform,
   }
 
-  // //hawker
-  // const hawkerData = new Blob([JSON.stringify(hawker, null, 2)], {
-  //   type: "application/json",
-  // });
+  // hawker centre
+  // Blob object that holds the data for a GeoJSON file for hawker centre locations.
+  const hawkerData = new Blob([JSON.stringify(hawker, null, 2)], {
+    type: "application/json",
+  });
 
-  // const hawkerForm = new FormData();
-  // hawkerForm.append("data", hawkerData, "hawker-centres.geojson");
-  // hawkerForm.append("lat", "1.3483");
-  // hawkerForm.append("lng", "103.6831");
+  // FormData object that holds the hawker centre GeoJSON data and the latitude and longitude coordinates of the selected location
+  const hawkerForm = new FormData();
+  hawkerForm.append("data", hawkerData, "hawker-centres.geojson");
+  hawkerForm.append("lat", String(inputfields.lat));
+  hawkerForm.append("lng", String(inputfields.lng));
 
-  // const hawkeroptions = {
-  //   method: "POST",
-  //   body: hawkerForm,
-  // }
+  // specifies the HTTP POST request method and body data for the hawker centre data upload
+  const hawkeroptions = {
+    method: "POST",
+    body: hawkerForm,
+  }
 
-  //fitness
-  // const fitnessData = new Blob([JSON.stringify(gyms, null, 2)], {
-  //   type: "application/json",
-  // });
+  // fitness facilities
+  // Blob object that holds the data for a GeoJSON file for fitness facilities locations.
+  const fitnessData = new Blob([JSON.stringify(gyms, null, 2)], {
+    type: "application/json",
+  });
 
-  // const fitnessForm = new FormData();
-  // fitnessForm.append("data", fitnessData, "gyms-sg-geojson.geojson");
-  // fitnessForm.append("lat", "1.3483");
-  // fitnessForm.append("lng", "103.6831");
+  // FormData object that holds the fitness facilities GeoJSON data and the latitude and longitude coordinates of the selected location
+  const fitnessForm = new FormData();
+  fitnessForm.append("data", fitnessData, "gyms-sg-geojson.geojson");
+  fitnessForm.append("lat", String(inputfields.lat));
+  fitnessForm.append("lng", String(inputfields.lng));
 
-  // const fitnessoptions = {
-  //   method: "POST",
-  //   body: fitnessForm,
-  // }
+  // specifies the HTTP POST request method and body data for the fitness facilities data upload
+  const fitnessoptions = {
+    method: "POST",
+    body: fitnessForm,
+  }
 
-  //response.data[0].properties.Name, response.data[0].properties.ADDRESSBLOCKHOUSENUMBER, response.data[0].properties.ADDRESSSTREETNAME, response.data[0].properties.ADDRESSPOSTALCODE, response.data[0].properties.PHOTOURL
-  //library
-
-
+  // fetching library data
+  // useEffect hook to make an HTTP POST request to a specified URL when the inputfields state changes
   useEffect(() => {
     console.log("libform", libform)
+    console.log('POST REQ FOR LIBFORM-----')
     axios.post("https://silverfun-backend.limsui.repl.co", libform, liboptions)
       .then(response => {
+        // If the request is successful, the response data is used to set the topLibraries state
+        // which is an array of arrays containing information about the top 5 nearest libraries in the specified location, a book icon and "libraries"
+        console.log('PROMISE FULFILLED------')
         console.log("libraries");
-        // console.log(libraryData)
         console.log(response.data);
         setTopLibraries(
           [[response.data[0].properties.Name, response.data[0].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[0].properties.ADDRESSSTREETNAME + " Singapore " + response.data[0].properties.ADDRESSPOSTALCODE, response.data[0].properties.HYPERLINK, response.data[0].properties.PHOTOURL],
@@ -142,12 +142,70 @@ function Activities() {
         setLoading(false)
       })
       .catch(error => {
+        // If the request fails, an error is logged to the console.
         console.log(error);
       });
-  }, [inputfields])
+  }, [inputfields]) // specify the dependency array to only run the effect when the inputfields changes
 
+  
+  // fetching hawker centres data
+  // useEffect hook to make an HTTP POST request to a specified URL when the inputfields state changes
+  useEffect(() => {
+    console.log("hawkerForm", hawkerForm)
+    axios.post("https://silverfun-backend.limsui.repl.co", hawkerForm, hawkeroptions)
+      .then(response => {
+        // If the request is successful, the response data is used to set the topHawkers state
+        // which is an array of arrays containing information about the top 5 nearest hawker centres in the specified location, a food icon and "hawker"
+        console.log("hawkers");
+        console.log(response.data);
+        setTopHawkers(
+          [[response.data[0].properties.Name, response.data[0].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[0].properties.ADDRESSSTREETNAME + " Singapore " + response.data[0].properties.ADDRESSPOSTALCODE, response.data[0].properties.HYPERLINK, response.data[0].properties.PHOTOURL],
+          [response.data[1].properties.Name, response.data[1].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[1].properties.ADDRESSSTREETNAME + " Singapore " + response.data[1].properties.ADDRESSPOSTALCODE, response.data[1].properties.HYPERLINK, response.data[1].properties.PHOTOURL],
+          [response.data[2].properties.Name, response.data[2].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[2].properties.ADDRESSSTREETNAME + " Singapore " + response.data[2].properties.ADDRESSPOSTALCODE, response.data[2].properties.HYPERLINK, response.data[2].properties.PHOTOURL],
+          [response.data[3].properties.Name, response.data[3].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[3].properties.ADDRESSSTREETNAME + " Singapore " + response.data[3].properties.ADDRESSPOSTALCODE, response.data[3].properties.HYPERLINK, response.data[3].properties.PHOTOURL],
+          [response.data[4].properties.Name, response.data[4].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[4].properties.ADDRESSSTREETNAME + " Singapore " + response.data[4].properties.ADDRESSPOSTALCODE, response.data[4].properties.HYPERLINK, response.data[4].properties.PHOTOURL], Food, "hawker"])
+        console.log(topHawkers);
+        console.log(display);
+        setLoading(false)
+      })
+      .catch(error => {
+        // If the request fails, an error is logged to the console.
+        console.log(error);
+      });
+  }, [inputfields]) // specify the dependency array to only run the effect when the inputfields changes
+
+
+  // fetching fitness facilities data
+  // useEffect hook to make an HTTP POST request to a specified URL when the inputfields state changes
+  useEffect(() => {
+    console.log("fitnessForm",fitnessForm)
+    axios.post("https://silverfun-backend.limsui.repl.co", fitnessForm, fitnessoptions)
+      .then(response => {
+        // If the request is successful, the response data is used to set the topFitness state
+        // which is an array of arrays containing information about the top 5 nearest fitness facilities in the specified location, a squats icon and "fitness"
+        console.log("fitness");
+        console.log(response.data);
+        setTopFitness(
+          [[response.data[0].properties.Name, response.data[0].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[0].properties.ADDRESSSTREETNAME + " Singapore " + response.data[0].properties.ADDRESSPOSTALCODE, response.data[0].properties.HYPERLINK, response.data[0].properties.PHOTOURL],
+          [response.data[1].properties.Name, response.data[1].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[1].properties.ADDRESSSTREETNAME + " Singapore " + response.data[1].properties.ADDRESSPOSTALCODE, response.data[0].properties.HYPERLINK, response.data[0].properties.PHOTOURL],
+          [response.data[2].properties.Name, response.data[2].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[2].properties.ADDRESSSTREETNAME + " Singapore " + response.data[2].properties.ADDRESSPOSTALCODE, response.data[0].properties.HYPERLINK, response.data[0].properties.PHOTOURL],
+          [response.data[3].properties.Name, response.data[3].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[3].properties.ADDRESSSTREETNAME + " Singapore " + response.data[3].properties.ADDRESSPOSTALCODE, response.data[0].properties.HYPERLINK, response.data[0].properties.PHOTOURL],
+          [response.data[4].properties.Name, response.data[4].properties.ADDRESSBLOCKHOUSENUMBER + " " + response.data[4].properties.ADDRESSSTREETNAME + " Singapore " + response.data[4].properties.ADDRESSPOSTALCODE, response.data[0].properties.HYPERLINK, response.data[0].properties.PHOTOURL], Squats, "fitness"])
+        console.log(topFitness);
+        console.log(display);
+        setLoading(false)
+      })
+      .catch(error => {
+        // If the request fails, an error is logged to the console.
+        console.log(error);
+      });
+  }, [inputfields]) // specify the dependency array to only run the effect when the inputfields changes
+
+  // useEffect hook that runs when the filter or isLoading state variables change.
   useEffect(() => {
     console.log(filter)
+    console.log('topLibraries---------------------------')
+    console.log(topLibraries)
     if (filter === "library" && isLoading === false) {
       setDisplay(topLibraries)
       setState3(true)
@@ -155,53 +213,22 @@ function Activities() {
       setState2(false)
       setRendering(false)
     }
-    else if (filter === "hawker") {
+    else if (filter === "hawker"&& isLoading === false) {
       setDisplay(topHawkers)
       setState2(true)
       setState3(false)
       setState1(false)
     }
-    else if (filter === "fitness") {
+    else if (filter === "fitness"&& isLoading === false) {
       setDisplay(topFitness)
       setState1(true)
       setState2(false)
       setState3(false)
     }
-  }, [filter, isLoading, topLibraries]);
-
- 
-
-
-
-// //hawker
-// useEffect(() => {
-//   axios.post("https://silverfun-backend.limsui.repl.co", hawkerForm, hawkeroptions)
-//     .then(response => {
-//       console.log("hawker");
-//       console.log(response.data);
-//     })
-//     .catch(error => {
-//       console.log(error);
-//     });
-// },[])
-
-//fitness
-
-// useEffect(() => {
-//   axios.post("https://silverfun-backend.limsui.repl.co", fitnessForm, fitnessoptions)
-//     .then(response => {
-//       console.log("fitness");
-//       console.log(response.data);
-
-//     })
-//     .catch(error => {
-//       console.log(error);
-//     });
-// }, [])
+  }, [filter, isLoading]); // specify the dependency array to only run the effect when the filter or isLoading changes
 
 
 return (
-  // <ActivityLocationProvider>
   <div>
 
     <Header />
@@ -209,22 +236,12 @@ return (
       <p className="text-center m-auto ">
         <h1 className="mb-2">Activities</h1>
         <body>Find out more about fun and enriching activities around you!</body>
-
-        <br />
+        
         <div className="w-max-3xl">
           <GMaps url1={url1} url2={url2} url3={url3} state1={state1} state2={state2} state3={state3} onClickHandler = {()=>setInputClick(!inputClick)} className="w-max-3xl" />
         </div>
         <br />
-
-        {/* <div class="align middle">
-            <input
-              class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 w-72 rounded-lg text-sm focus:outline-none shadow"
-              type="text"
-              id="header-search"
-              placeholder="Search for activities near you"
-              name="s" />
-          </div> */}
-
+        <div>Press one of the filters below to find activities available near you!</div>
         <br />
         <div class="inline-flex space-x-9">
           <button class={`bg-white h-10 px-5 rounded-lg flex items-center text-center text-md rounded-md + ${filter === "library" ? 'border-2 border-gray-400 shadow-inner' : 'hover:scale-105 transition-all duration-150 ease-linear drop-shadow-lg'}`} onClick={event => setFilter("library")} >
@@ -248,44 +265,43 @@ return (
           </button>
 
         </div>
-        {isRendering ? <div>Loading</div> : <div>
+        {isRendering || (display === null) ? <div>
+          <br/>Loading...</div>  : <div>
           {console.log('display')}
           {console.log(display)}
           <br />
           <Link to={"/ActivityDetails"}
             state={{ name: display[0][0], address: display[0][1], link: display[0][2], photo: display[0][3], type: display[6] }}
           >
-            <Boxes icon={display[5]} text1={display[0][0]} text2={display[0][1]} time="20 Min"></Boxes>
+            <Boxes icon={display[5]} text1={display[0][0]} text2={display[0][1]}></Boxes>
           </Link>
           <br />
           <Link to={"/ActivityDetails"}
             state={{ name: display[1][0], address: display[1][1], link: display[1][2], photo: display[1][3], type: display[6] }}
           >
-            <Boxes icon={display[5]} text1={display[1][0]} text2={display[1][1]} time="23 Min"></Boxes></Link>
+            <Boxes icon={display[5]} text1={display[1][0]} text2={display[1][1]}></Boxes></Link>
           <br />
           <Link to={"/ActivityDetails"}
             state={{ name: display[2][0], address: display[2][1], link: display[2][2], photo: display[2][3], type: display[6] }}
           >
-            <Boxes icon={display[5]} text1={display[2][0]} text2={display[2][1]} time="25 Min"></Boxes>
+            <Boxes icon={display[5]} text1={display[2][0]} text2={display[2][1]}></Boxes>
           </Link>
           <br />
           <Link to={"/ActivityDetails"}
             state={{ name: display[3][0], address: display[3][1], link: display[3][2], photo: display[3][3], type: display[6] }}
           >
-            <Boxes icon={display[5]} text1={display[3][0]} text2={display[3][1]} time="25 Min"></Boxes></Link>
+            <Boxes icon={display[5]} text1={display[3][0]} text2={display[3][1]}></Boxes>
+          </Link>
           <br />
           <Link to={"/ActivityDetails"}
             state={{ name: display[4][0], address: display[4][1], link: display[4][2], photo: display[4][3], type: display[6] }}
           >
-            <Boxes icon={display[5]} text1={display[4][0]} text2={display[4][1]} time="25 Min"></Boxes>
+            <Boxes icon={display[5]} text1={display[4][0]} text2={display[4][1]}></Boxes>
           </Link>
           <br />
 
         </div>}
 
-
-        {/* <body> 1 of 5 </body>
-          <button class="text-sm hover:scale-105 "> Next {'>'} </button> */}
         <br />
 
       </p>
@@ -293,7 +309,6 @@ return (
 
     <Footer />
   </div>
-  // </ActivityLocationProvider>
 );
 
 }

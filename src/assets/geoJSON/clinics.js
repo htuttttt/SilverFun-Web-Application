@@ -1,0 +1,380 @@
+// A GeoJSON FeatureCollection representing clinics in Singapore. Data is retrieved from data.gov.sg
+// @typedef {Object} ClinicCollection
+// @property {string} type - The type of the GeoJSON object, always "FeatureCollection".
+// @property {Object} crs - The coordinate reference system for the GeoJSON object.
+// @property {Object} crs.properties - The properties of the coordinate reference system.
+// @property {Object[]} features - An array of GeoJSON Feature objects, each representing a clinic.
+
+export const clinic =
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ang Mo Kio Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "21",
+                "ADDRESSSTREETNAME": "Ang Mo Kio Central 2",
+                "ADDRESSPOSTALCODE": "569666",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Ang_Mo_Kio_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845608356491,
+                    1.37431148304397,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Bukit Batok Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "50",
+                "ADDRESSSTREETNAME": "Bukit Batok West Ave 3",
+                "ADDRESSPOSTALCODE": "659164",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Bukit_Batok_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.747822270178,
+                    1.35201517481202,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Bukit Merah Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "163",
+                "ADDRESSSTREETNAME": "Bukit Merah Central",
+                "ADDRESSPOSTALCODE": "150163",
+                "HYPERLINK": "http://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-BukitMerah.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.816939553188,
+                    1.28388120780201,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Choa Chu Kang Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "2",
+                "ADDRESSSTREETNAME": "Teck Whye Crescent",
+                "ADDRESSPOSTALCODE": "688846",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Choa_Chu_Kang_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.750776872404,
+                    1.38234138571274,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Clementi Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "451",
+                "ADDRESSSTREETNAME": "Clementi Avenue 3",
+                "ADDRESSPOSTALCODE": "120451",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Clementi_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.765476761292,
+                    1.31248297973127,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Geylang Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "21",
+                "ADDRESSSTREETNAME": "Geylang East Central",
+                "ADDRESSPOSTALCODE": "389707",
+                "HYPERLINK": "http://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Geylang.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.887166044816,
+                    1.31949364570372,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hougang Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "89",
+                "ADDRESSSTREETNAME": "Hougang Avenue 4",
+                "ADDRESSPOSTALCODE": "538829",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Hougang_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.88899639049,
+                    1.37001804682907,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jurong Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "190",
+                "ADDRESSSTREETNAME": "Jurong East Avenue 1",
+                "ADDRESSPOSTALCODE": "609788",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Jurong_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.730717873432,
+                    1.34971978912987,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Outram Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "3",
+                "ADDRESSSTREETNAME": "Health Promotion Board Building",
+                "ADDRESSPOSTALCODE": "168937",
+                "HYPERLINK": "http://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Outram.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.838315054028,
+                    1.2793314591479,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Pasir Ris Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSSTREETNAME": "Pasir Ris Drive 4",
+                "ADDRESSPOSTALCODE": "519457",
+                "HYPERLINK": "http://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.959198004761,
+                    1.3685870294423,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Pioneer Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "26",
+                "ADDRESSSTREETNAME": "Jurong West Street 61",
+                "ADDRESSPOSTALCODE": "648201",
+                "HYPERLINK": "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-pioneerp.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.698979341476,
+                    1.33856224262937,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Punngol Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "681",
+                "ADDRESSSTREETNAME": "Punggol Drive",
+                "ADDRESSPOSTALCODE": "820681",
+                "HYPERLINK": "https://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Punggol.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.913195748836,
+                    1.40287845319493,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Queenstown Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "580",
+                "ADDRESSSTREETNAME": "Stirling Road",
+                "ADDRESSPOSTALCODE": "148958",
+                "HYPERLINK": "http://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Queenstown.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.800957800916,
+                    1.29847546889956,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "SengKang Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "2",
+                "ADDRESSSTREETNAME": "Sengkang Square",
+                "ADDRESSPOSTALCODE": "545025",
+                "HYPERLINK": "http://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Sengkang.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.893906102774,
+                    1.39278558587024,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tampines Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSSTREETNAME": "Tampines Street 41",
+                "ADDRESSPOSTALCODE": "529203",
+                "HYPERLINK": "http://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Tampines.aspx",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.945849466662,
+                    1.35730995817496,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Toa Payoh Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "2003",
+                "ADDRESSSTREETNAME": "Toa Payoh Lorong 8",
+                "ADDRESSPOSTALCODE": "319260",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Toa_Payoh_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.858956445115,
+                    1.33448027639964,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Woodlands Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "10",
+                "ADDRESSSTREETNAME": "Woodlands Street 31",
+                "ADDRESSPOSTALCODE": "738579",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Woodlands_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.775212917467,
+                    1.43089322412168,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yishun Polyclinic",
+                "ADDRESSBLOCKHOUSENUMBER": "2",
+                "ADDRESSSTREETNAME": "Yishun Ave 9",
+                "ADDRESSPOSTALCODE": "768898",
+                "HYPERLINK": "https://www.nhgp.com.sg/Our_Clinics/Yishun_Polyclinic/",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.839190700337,
+                    1.43035851075507,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "SCS Multi-Service Centre",
+                "ADDRESSBLOCKHOUSENUMBER": "9",
+                "ADDRESSSTREETNAME": "Bishan Place",
+                "ADDRESSPOSTALCODE": "579837",
+                "HYPERLINK": "https://www.singaporecancersociety.org.sg/about/contact.html",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.848477635059,
+                    1.35023942729659,
+                    0.0
+                ]
+            }
+        }
+    ]
+}

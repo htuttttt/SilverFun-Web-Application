@@ -1,276 +1,5668 @@
-export const pharmacy = {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "Name": "kml_1", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>59413<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Chinatown Point 4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>34<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NEW BRIDGE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>133<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Chinatown Point 4)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>2417C4BCBDED293A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.844697087192003, 1.28499883313915, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_2", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>39393<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>City Link<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>67<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>RAFFLES LINK<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (City Link)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>DC62A0285AA3D4C4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.854173508665994, 1.29277773939561, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_3", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>208539<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>City Square Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>18\/19<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>KITCHENER ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>180<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (City Square Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>072024AEC88376C7<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.856487115196998, 1.31139350343283, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_4", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>129588<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Clementi Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>59\/60\/61<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>COMMONWEALTH AVENUE WEST<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3155<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Clementi Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>531B3D1E8B32DFBA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.764248204763007, 1.31485323068366, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_5", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>48621<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Clifford Centre 2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>19\/20\/21<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>RAFFLES PLACE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>24<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Clifford Centre 2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5A7934163F3F0619<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.852128179258003, 1.2838569939881, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_6", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>545078<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Compass One<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SENGKANG SQUARE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Compass One)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A037D0CF0D8558E4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.894980028960006, 1.39209415560853, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_7", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819642<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Departure Transit Lounge East<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>69<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>80<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Departure Transit Lounge East)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>2E98534BBA53DA89<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.989707256049002, 1.3624910006739, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_8", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819642<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Departure Transit West T1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>16<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>80<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Departure Transit West T1)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>2E98534BD672A61B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.989707256049002, 1.3624910006739, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_9", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819643<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Departure\/Check In Hall North<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>12<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>26<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>60<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Departure\/Check In Hall North)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>56A8D22E7EF681BB<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.988750980351995, 1.35519094499408, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_10", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819643<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Departure\/Transit Lounge North Terminal 2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>095A<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>26<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>60<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Departure\/Transit Lounge North Terminal 2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>56A8D22EC6AC223E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.988750980351995, 1.35519094499408, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_11", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819643<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Departure\/Transit Lounge South<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>115-01<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>26<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>60<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Departure\/Transit Lounge South)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>56A8D22E8352FACF<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.988750980351995, 1.35519094499408, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_12", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>258499<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Gleneagles<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>6-Aug<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NAPIER ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Gleneagles)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>AF88D157F2CA3728<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.820124456724997, 1.30706156876825, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_13", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>237994<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Great World City<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>18\/19<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>KIM SENG PROMENADE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Great World City)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5721B882670D7B93<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.831757914598995, 1.29380235820186, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_14", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>530205<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>H205<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>129<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOUGANG STREET 21<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>205<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (H205)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D7BD9776C1905B32<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.885079921542996, 1.35949664734933, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_15", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>99253<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Harbourfront Centre<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>111\/112<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MARITIME SQUARE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Harbourfront Centre)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B16E77F65366E59C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.818625583667, 1.26206337173976, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_16", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>278967<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Holland Shopping Centre<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOLLAND AVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>211<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Holland Shopping Centre)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E5B575E2E8BB6ADE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.795350445460997, 1.31025541990594, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_17", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>538766<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Hougang Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>31<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOUGANG AVENUE 10<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>90<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Hougang Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>22967B7C6B50CF4D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.893661609334998, 1.37231185733402, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_18", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>609601<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>IMM2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>56\/57<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG EAST ST 21<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (IMM2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>091C6E62AA5C14E1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.746638239920003, 1.33502430217022, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_19", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238801<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>ION<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD TURN<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (ION)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>72458867B9465260<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.831395138106998, 1.30403578206272, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_20", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>608549<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JEM<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>16\/17<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG GATEWAY ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>50<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (JEM)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B50E72A923612DEF<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.743170429103998, 1.33320021580922, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_21", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>278628<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Jelita<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOLLAND RD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>293<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Jelita)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C08018EED6A7ABAD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.785840618421005, 1.31756196835634, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_22", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>648331<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Jurong Point 2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>27\/28<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG WEST CENTRAL 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>63<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Jurong Point 2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>F3DBAC58CC5ADAF3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.705308194381004, 1.33936402101731, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_23", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>640503<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Jurong West Blk 503<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>845<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG WEST AVENUE 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>503<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Jurong West Blk 503)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8D23EF16057E90F8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.717704811505001, 1.34995540028616, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_24", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>397693<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Kallang Leisure Park 2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>23<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>STADIUM WALK<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Kallang Leisure Park 2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>4151602DC13C1D56<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.876152670397005, 1.3022217738606, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_25", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>428802<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Katong Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>7<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>EAST COAST ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>112<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Katong Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C5945B8196DACC46<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.905014935834004, 1.3052347202485, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_26", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>689812<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>LOT 1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>26\/27<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>CHOA CHU KANG AVENUE 4<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>21<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (LOT 1)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>201016C139FDBC09<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.744950386856999, 1.38506836029318, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_27", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>208699<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Lavender MRT Station<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>KALLANG ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>50<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Lavender MRT Station)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>631021A2D61E91AD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.862767638972002, 1.307377508298, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_28", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>18972<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Marina Bay Sands<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>49<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BAYFRONT AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Marina Bay Sands)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>508AC6F783327F8A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.858505752034006, 1.28355872902487, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_29", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>228510<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Mount Elizabeth<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>10-Nov<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MOUNT ELIZABETH<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Mount Elizabeth)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>88C951AB07B5AFA4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.835439347424, 1.30516521414743, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_30", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>59221<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Pagoda Street<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PAGODA STREET<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>62<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Pagoda Street)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>488E96AB8A14F8E9<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.844086263704995, 1.28376231214434, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_31", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238859<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Paragon<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>20\/24<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>290<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Paragon)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>EBC793491DABAE22<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.835240316416005, 1.30372321734212, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_32", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>449269<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Parkway Parade<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>147-149\/155A<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MARINE PARADE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>80<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Parkway Parade)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>1EE29CAC4D71054C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.905113594951004, 1.30119132286102, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_33", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238839<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Plaza Singapura<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>13\/14<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>68<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Plaza Singapura)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0AFE0186AE133D3E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845047624011002, 1.30074756196425, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_34", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>179103<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Raffles City<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NORTH BRIDGE RD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>252<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Raffles City)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>44EA023B35AEA732<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.853119913433005, 1.29389358572057, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_35", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>48618<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Raffles Place MRT 3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>37-40\/43-45<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>RAFFLES PLACE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Raffles Place MRT 3)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>FE778AE0CACB8884<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.851379782034996, 1.28433393431627, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_36", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>797653<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Seletar Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>10-Nov<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SENGKANG WEST AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>33<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Seletar Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>13EFF1824C0AD73D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.876067663079994, 1.39139305906039, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_37", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>555962<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Serangoon Garden<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SERANGOON GARDEN WAY<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>66<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Serangoon Garden)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>561610B2146E234D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.865452652784995, 1.36414322114501, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_38", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>556083<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Serangoon NEX<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>62\/63<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SERANGOON CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>23<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Serangoon NEX)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>7D7A3C0EE905FE57<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.871861620199994, 1.35067551423922, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_39", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>138617<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Star Vista<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>16<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>VISTA EXCHANGE GREEN<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Star Vista)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>35EA76CDA745E523<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.788214532235003, 1.3068488257737, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_40", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>757713<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Sun Plaza 2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SEMBAWANG DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>30<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Sun Plaza 2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>840506748FC09180<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.819462112615994, 1.44822653003392, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_41", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>38983<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Suntec City<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>328\/329<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TEMASEK BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Suntec City)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8FF284703111DE91<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.857675495254, 1.2948790592606, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_42", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>539775<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Tai Seng Street<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>19-21<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAI SENG STREET<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>18<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Tai Seng Street)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C082BD9C8ADEC947<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.888762712133001, 1.3365386711551, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_43", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238872<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Takashimaya S. C.<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>15-23<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>391<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Takashimaya S. C. )<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8D58FD44D4D8897B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.834676130166997, 1.30242417909429, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_44", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529538<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Tampines MRT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES CENTRAL 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>20<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Tampines MRT)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B6E966F39D7A0E78<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.944838297789005, 1.35364657681096, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_45", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529510<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Tampines Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>18\/19<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES CENTRAL 5<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Tampines Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>20C5F8E0E5B9D6D8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.944387990020005, 1.35267231861995, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_46", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>247933<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Tanglin Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>18<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TANGLIN ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>163<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Tanglin Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E947C8255B8FE3CD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.823852803679998, 1.30484344306554, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_47", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238843<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>The Centrepoint<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>01\/02\/03\/04<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>176<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (The Centrepoint)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A0C6FFF86C443BF6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.839758893918997, 1.30197804806506, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_48", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>574408<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Thomson Plaza 2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>48<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>UPPER THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>301<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Thomson Plaza 2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C62AE59953F366D0<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.830919790223007, 1.3546690242467, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_49", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>168732<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Tiong Bahru Plaza<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>125<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TIONG BAHRU ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>302<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Tiong Bahru Plaza)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8CD16A2FBA881AC0<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.826935082489996, 1.28646346132616, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_50", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>310190<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Toa Payoh Blk 190<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>578<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LORONG 6 TOA PAYOH<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>190<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Toa Payoh Blk 190)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>BC693A242EF7A6E5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.847965424321004, 1.33297561827727, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_51", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>307591<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>United Square 2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>28<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>101<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (United Square 2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C5D237DF6C24CE7B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.843463176990994, 1.31733463710903, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_52", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>98585<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Vivo City<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>23<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HARBOURFRONT WALK<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Vivo City)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A2D63E9794E18DE1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.821589252211993, 1.26389582040559, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_53", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>528765<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>WRS<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES NORTH DRIVE 2<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>21<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (WRS)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>77F165534407CB5D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.931999894938002, 1.37210169899061, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_54", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>658713<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>West Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>27<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT BATOK CENTRAL LINK<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (West Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8DB8CB3B40DAD402<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.749021980031003, 1.35018915711658, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_55", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>608532<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Westgate<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>20<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>GATEWAY DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Westgate)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>62C44DABDFD5480D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.742586016847994, 1.33402528926324, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_56", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>689715<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Yew Tee MRT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>02A<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>CHOA CHU KANG DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>61<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Yew Tee MRT)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A39FA829B63A8181<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.747329722792003, 1.39712885562235, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_57", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>329984<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Zhongsan Park<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>20\/21<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AH HOOD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>20<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Zhongsan Park)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A346C3B890584923<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.846476461189994, 1.32708486276788, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_58", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>569766<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Thye Hua Kwan Hospital<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ANG MO KIO AVE 9<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>17<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Healing Hub @ Ang Mo Kio - Thye Hua Kwan Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E6BCA9807FCEB1C8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.840172119463006, 1.38427915854095, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_59", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>308433<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN TAN TOCK SENG<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Johns Hopkins Singapore International Medical Centre Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6CA0ABAD27A10B7E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845389010681004, 1.32171598577179, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_60", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>609606<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Jurong Community Hospital<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG EAST STREET 21<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Jurong Community Hospital Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0EE89F74F3FBCF94<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.743865457666999, 1.33553382005591, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_61", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>648346<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>8<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG WEST CENTRAL 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>60<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Jurong Medical Centre Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>4D4F09C14EC29228<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.704452681709995, 1.3404695704551, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_62", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>229899<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>OV92A<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT TIMAH ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>100<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>KK Emergency Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5B7911368A70FACD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.846650080461004, 1.3104485343334, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_63", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>229899<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1R20A<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT TIMAH ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>100<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>KK Outpatient Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5B791136EA4FF289<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.846650080461004, 1.3104485343334, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_64", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>768828<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>YISHUN CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>90<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Khoo Teck Puat Hospital Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>681D8334C3E48582<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.837853670556001, 1.4238775983318, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_65", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>530356<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>799<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOUGANG AVENUE 7<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>356<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>MANAPHARMA<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>FFA61398371FA7FF<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.898813152707007, 1.37259313275845, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_66", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>200803<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>182<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>KING GEORGE'S AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>803<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>MEDI-LINK PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>08CBD20264956831<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.860912790694996, 1.30836526479411, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_67", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>207704<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>MUSTAFA CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SYED ALWI RD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>145<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D553BBF9766806A1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.854999819620005, 1.31053196208373, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_68", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>329563<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>MOUNT ELIZABETH NOVENA HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>IRRAWADDY ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>38<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E90B8BF7F8D3C120<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.844226258359996, 1.3221465582724, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_69", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>574623<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>MT ALVERNIA HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>820<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>MT ALVERNIA HOSPITAL RETAIL PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>4C66B80511B37E27<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.837524327839006, 1.34180969642913, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_70", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>574623<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Mount Alvernia Hospital<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>29<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>820<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Mount Alvernia Hospital (Main Pharmacy)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>4C66B8056D0B646A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.837524327839006, 1.34180969642913, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_71", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>228510<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Mount Elizabeth Hospital<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MOUNT ELIZABETH<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Mount Elizabeth Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>88C951ABA99102A7<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.835439347424, 1.30516521414743, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_72", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>169610<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NATIONAL CANCER CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOSPITAL DR<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NATIONAL CANCER CENTRE PHARMACY (LEVEL 1)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>55D5255385DF2C44<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.836531564343005, 1.27929090033647, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_73", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>169610<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NATIONAL CANCER CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOSPITAL DR<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NATIONAL CANCER CENTRE PHARMACY (LEVEL 3)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>55D52553F16B2AB5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.836531564343005, 1.27929090033647, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_74", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>308205<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MANDALAY RD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NATIONAL SKIN CENTRE (S) PTE LTD (PHARMACY)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A95DFF96BD620840<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.849006945922994, 1.31968290585282, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_75", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>119074<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LOWER KENT RIDGE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>080DA1BC05A88940<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.782710306477995, 1.29395579048752, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_76", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>119082<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LOWER KENT RIDGE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NATIONAL UNIVERSITY HOSPITAL(S) PTE LTD (MEDICAL CENTRE PHARMACY)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E3554DB6C78AA90C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.784084013897001, 1.29277432153154, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_77", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>688846<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TECK WHYE CRESCENT<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NHG Pharmacy (CCK Polyclinic)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>450A5C7721A422B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.750776877796, 1.38234138480857, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_78", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>768796<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>YISHUN CENTRAL 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>30A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NHG Pharmacy (Yishun)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>BAB8B4A45CBA8BC2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.838333414199994, 1.42653750597707, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_79", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>588996<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN ANAK BUKIT<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NTUC Healthcare (BTP)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>61CB5DE34D2D0C0D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.778560469300999, 1.33865677365242, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_80", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>574408<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>102<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>UPPER THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>301<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>NTUC Healthcare - The Living Pharmacy (TSP)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C62AE599DBFDD3A4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.830919790223007, 1.3546690242467, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_81", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>539747<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>BLK 9<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUANGKOK VIEW<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Addiction Management Services (NAMS) Clinic Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>55EBC167D7D9A629<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.883348795228002, 1.38158954889555, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_82", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>569666<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ANG MO KIO CENTRAL 2<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>21<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Ang Mo Kio)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>1D9900F195D5D18F<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845608355592006, 1.3743114848527, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_83", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>560723<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>4136<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ANG MO KIO AVENUE 8<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>723<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Ang Mo Kio)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>EE8F3844AE525445<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.847182023168997, 1.37231859836598, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_84", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>659164<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT BATOK WEST AVE 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>50<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Bukit Batok)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C9499676B4AA5791<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.747822269278998, 1.35201516757708, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_85", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>120451<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>307<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>CLEMENTI AVENUE 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>451<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Clementi)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9C27BD4055EC84C7<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.765476761292007, 1.31248298606182, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_86", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>389707<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>GEYLANG POLYCLINIC<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>GEYLANG EAST CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>21<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Geylang)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A5D3E019534F3EAE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.88716604212, 1.31949366288669, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_87", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>538829<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOUGANG AVE 4<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>89<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Hougang)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>3757A0E9770F2469<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.888996393184996, 1.37001805225518, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_88", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>609788<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG EAST AVE 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>190<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Jurong)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>7D976B1A0C3E9B33<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.730717872533006, 1.34971979274729, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_89", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>648201<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG WEST STREET 61<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>26<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Pioneer)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8D029CCB2BDDC53B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.698979343272995, 1.33856225076873, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_90", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>148958<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>STIRLING ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>580<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Queenstown)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D132CEBC7098F23C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.800957799117995, 1.29847548246501, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_91", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>319260<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LORONG 8 TOA PAYOH<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2003<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Toa Payoh)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B28716408639CEDB<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.858956450506994, 1.33448028001705, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_92", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>738579<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>WOODLANDS STREET 31<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Woodlands)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6896AB3627025002<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.775212924656003, 1.43089322864369, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_93", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>768898<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>YISHUN AVENUE 9<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Healthcare Group Pharmacy (Yishun)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>28B778FB7E36E452<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.839190702134005, 1.43035851618124, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_94", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>169609<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOSPITAL DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National Heart Centre Singapore<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9095BFE1EEE10D5B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.835954422994007, 1.27863260741604, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_95", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>119074<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LOWER KENT RIDGE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National University Hosital - Kent Ridge Wing Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>080DA1BC4A594957<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.782710306477995, 1.29395579048752, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_96", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>119082<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>9<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LOWER KENT RIDGE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>National University Hospital (s) Pte Ltd (Pharmacy @ NCIS)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E3554DB6419C50E8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.784084013897001, 1.29277432153154, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_97", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>609606<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>L2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG EAST STREET 21<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Ng Teng Fong General Hospital Outpatient & Retail Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0EE89F748E58EB89<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.743865457666999, 1.33553382005591, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_98", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238868<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>350<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Nishino Pharmacy (Shaw House)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9C979F1D802B4CA3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.831507327539001, 1.30580979402183, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_99", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238873<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>17<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>391A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Nishino Pharmacy (Takashimaya)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8D58FD44B33168A8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.834676130166997, 1.30242417909429, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_100", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>247909<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>40<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TANGLIN ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>19<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>P & L Pharmacy Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>986EEBF639FC2B63<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.827036521628997, 1.30637275109892, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_101", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>427990<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JOO CHIAT PLACE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>321<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>PARKWAY EAST HOSPITAL PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>168A6FAC6CF09C53<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.908756860126005, 1.3150882403844, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_102", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529906<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SIMEI STREET 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>PHARMACY @ CGH MEDICAL CENTRE<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>46105EB33BDAF7B4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.949280034146, 1.33948749359899, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_103", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>596180<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>37<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN JURONG KECHIL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>68<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Pacific Pharmacy Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>034BDB0C8F7FDC6E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.773649138565006, 1.34054847027196, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_104", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529889<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SIMEI STREET 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Pharmacy A  Changi General Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D12E47BEABF195B8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.949294393686998, 1.34068473250176, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_105", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>539747<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUANGKOK VIEW<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Pharmacy Services Centre  NHG (Blk 9)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>55EBC1670799B8AB<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.883348795228002, 1.38158954889555, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_106", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529889<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>J1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SIMEI STREET 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Pharmacy@IB  CGH (The Integrated Building)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D12E47BE5B27E5DC<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.949294393686998, 1.34068473250176, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_107", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>129808<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>CLEMENTI LOOP<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Princeton Pharmacy (S) Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>FF647EBA51CCF62D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.763539550591005, 1.32518140385333, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_108", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>550265<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>267<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SERANGOON CENTRAL DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>265<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>R & D PHARMACEUTICAL PTE LTD<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E5B2D2F4BBAF20E1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.871472213274998, 1.35296373463347, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_109", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>278997<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOLLAND AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>118<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Raffles Health Holland V<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>36FA1D401D57C108<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.796105204143998, 1.31052978566284, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_110", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>169608<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOSPITAL DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>SGH Retail Pharmacy (Blk 4)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>F2BE2679311D6186<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.830721779428004, 1.27993969513111, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_111", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>168751<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>THIRD HOSPITAL AVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>SINGAPORE NATIONAL EYE CENTRE PTE LTD<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>591499302E7C0E7C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.835736520937999, 1.2810802595994, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_112", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>168937<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HEALTH PROMOTION BOARD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SECOND HOSPITAL AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>SINGHEALTH POLY-OUTRAM<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>90F415F06DD44861<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.838315051332003, 1.27933147000029, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_113", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>310194<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>KIM KEAT VIEW<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>416<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>KIM KEAT AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>194<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>SMITH PHARMACY PTE LTD<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>CA72A33D68C51CEE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.858181911662001, 1.33093934294921, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_114", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529895<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>SAINT ANDREW'S HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SIMEI STREET 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>ST ANDREW'S COMMUNITY HOSPITAL PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B08D51B4F6E3D29A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.948759442630006, 1.34177633813431, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_115", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>659674<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>ST LUKE'S HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT BATOK STREET 11<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>ST LUKE'S HOSPITAL BLOCK A<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>92E580DAC832B561<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.741877626648005, 1.34953606994152, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_116", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>820218<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>6<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SUMANG WALK<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>218<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>SUMANG FAMILY PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C9CB818C36A02923<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.895387026654006, 1.40322711689378, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_117", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>159964<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>ALEXANDRA HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ALEXANDRA ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>378<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Sengkang Pharmacy (Main Building Blk1)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>EB44BDB40767EFF5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.799444847103999, 1.2881222150317, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_118", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>169608<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>SINGAPORE GENERAL HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>OUTRAM RD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Singapore General Hospital Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>F2BE2679235DFE44<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.830721779428004, 1.27993969513111, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_119", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>469662<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HEARTBEAT @ BEDOK<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BEDOK NORTH STREET 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Singhealth Poly - Bedok<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0DFA858222C36BDC<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.931663531574003, 1.32699717215909, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_120", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>150163<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>3565 & 3575<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT MERAH CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>163<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Singhealth Poly - Bukit Merah<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E135F9F8610223E2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.816939548695998, 1.28388121594126, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_121", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238841<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>ORCHARD PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>6<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>150<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>A.M. Pharmacy Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6BFDB0DC8B0E69C0<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.841150145059999, 1.30125729612723, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_122", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>498787<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>LIAN SOON AMENITY CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1-Feb<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ALPS AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>91<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>ALPS PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>437110685952788F<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 104.002513658564993, 1.37576196236282, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_123", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>730676<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>WOODLANDS DRIVE 71<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>676<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Admiralty Medical Centre Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>082C91D5B91C3673<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.800701210433004, 1.43991608082307, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_124", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819665<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CHANGI AIRPORT TERMINAL 4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>55\/56<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Airport Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>081BDFD8137AB350<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.983569030384999, 1.33826733905461, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_125", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>510258<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>LOYANG POINT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>14<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PASIR RIS STREET 21<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>258<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Alchemy Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>07AB7D06BC116FD1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.964617783723, 1.36700053331185, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_126", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>58770<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SOUTH BRIDGE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>221<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Amber Compounding Pharmacy Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6670C945CE137BF6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845873082145999, 1.28289735579849, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_127", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529889<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SIMEI STREET 3 CHANGI GENERAL HOSPITAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>CGH Pharmacy B<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D12E47BE459EC6A3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.949294393686998, 1.34068473250176, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_128", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>168937<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HEALTH PROMOTION BOARD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SECOND HOSPITAL AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Child Guidance Clinic  Health Promotion Board<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>90F415F06BEC44EE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.838315051332003, 1.27933147000029, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_129", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>539747<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>INSTITUTE OF MENTAL HEALTH<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>BLK 1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUANGKOK VIEW<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Clinic B Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>55EBC16776C5BD89<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.883348795228002, 1.38158954889555, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_130", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>572505<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>422<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BISHAN STREET 11<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>505B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>E+MED PTE LTD<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D25A9EBA551F1824<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.848526719408, 1.34870136449109, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_131", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>588177<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>BEAUTY WORLD CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>UPPER BUKIT TIMAH ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>144<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>E+MED Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>79E036337FD58E77<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.776250535844994, 1.34239283575288, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_132", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>58357<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>PEOPLE'S PARK CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>23<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>UPPER CROSS STREET<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>101<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Essentials Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6431B8DA26FEAD56<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.843852004525004, 1.28549527251536, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_133", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>217562<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CONNEXION<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>FARRER PARK STATION ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Farrer Park Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>7CA62E82708D5BD2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.853842191626995, 1.3127566809207, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_134", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>258500<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NAPIER ROAD GLENEAGLES HOSPITAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>6A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>GLENEAGLES HOSPITAL<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>000A4464BEC5B70A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.819420895066003, 1.30736473965355, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_135", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>650634<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>110<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT BATOK CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>634<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>GRACE HEALTHCARE<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>244086AA4865C568<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.751531282870999, 1.34973961735749, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_136", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>828761<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Waterway Point<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PUNGGOL CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>83<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy ( Waterway Point)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>DF8BD90AB5C274BE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.902073301521, 1.40648143230247, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_137", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238895<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>313 @ Somerset<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>13\/14<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>313<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (313 @ Somerset)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B45DA17023DD1310<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.837684360221004, 1.30138510756215, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_138", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>731678<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Admiralty<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>39<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>WOODLANDS AVENUE 6<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>678A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Admiralty)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>1A6D6D0D60ED37AC<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.801537360417001, 1.4403636667802, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_139", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>79027<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Amara Hotel<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>9<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TRAS STREET<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>100<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Amara Hotel)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A21F317D83D39660<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.843470745358005, 1.27458821970543, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_140", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>560704<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Ang Mo Kio 3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>2559<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ANG MO KIO AVENUE 8<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>704<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Ang Mo Kio 3)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>33C7D5B27D7279D1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.847230719199004, 1.37040711481372, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_141", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>460210<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Bedok Central<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>715<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NEW UPPER CHANGI ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>210<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Bedok Central)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0E3A46576B76AF4C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.931819172592, 1.32460705860301, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_142", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>467360<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Bedok Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>45\/47<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NEW UPPER CHANGI ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>311<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Bedok Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>AD4532BD527FCCA5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.929267657362999, 1.32477208083125, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_143", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>579837<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Bishan Place<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>8<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BISHAN PLACE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>9<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Bishan Place)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0A7AAB3FCF8088FA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.848477635058998, 1.35023942096603, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_144", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>188021<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Bugis Junction 3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>20\/21<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>VICTORIA STREET<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>200<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Bugis Junction 3)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>78AD955DE724738C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.855327958990003, 1.29906798897959, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_145", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>188022<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Bugis MRT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>VICTORIA STREET<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>220<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Bugis MRT)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>38633F4730722BA4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.855614760658995, 1.30026469884522, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_146", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>677743<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Bukit Panjang Plaza<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1\/2\/2003<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JELEBU ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Bukit Panjang Plaza)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>767C3F7F0AAF7489<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.763993946246003, 1.38054245503335, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_147", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>738099<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Causeway Point<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>28\/30<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>WOODLANDS SQUARE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Causeway Point)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>97B88F96CC893AAF<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.785688738337001, 1.43600784336274, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_148", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819663<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Changi T3 Basement 2 North<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>24<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>65<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Changi T3 Basement 2 North)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9DAB7C2B4B4E82A2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.985169646079996, 1.35437073436533, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_149", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>769098<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Northpoint<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>2-Mar<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>YISHUN AVENUE 2<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>930<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Northpoint)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>37D2CCA59AC4FD7A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.835776493092993, 1.42969847788612, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_150", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>329563<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Novena Hospital<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>08\/09\/10\/11<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>IRRAWADDY ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>38<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Novena Hospital)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E90B8BF706B336DF<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.844226258359996, 1.3221465582724, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_151", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>307683<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Novena Square<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>31<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>238<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Novena Square)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>69066C3F8042619A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.843656768212995, 1.32021101149494, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_152", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>528523<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Our Tampines Hub<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>29<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES WALK<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (Our Tampines Hub)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E59A2A9AE323E128<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.939683598938004, 1.35349615381357, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_153", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>440080<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>792<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MARINE PARADE CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>80<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Singhealth Poly - Marine Parade<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6CAAEE3205F9E67A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.907738801213, 1.30248203604475, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_154", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>519457<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PASIR RIS DRIVE 4<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Singhealth Poly - Pasir Ris<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>2096DB78B6BC5041<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.959198003862994, 1.36858703758161, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_155", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>820681<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PUNGGOL DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>681<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Singhealth Poly - Punggol<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E4C1B04C70D1ED26<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.913195749734001, 1.40287845229054, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_156", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>545025<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>SENGKANG COMMUNITY HUB<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>6<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SENGKANG SQUARE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Singhealth Poly - Sengkang<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>46C617913EA07EF6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.893906100078993, 1.39278559039214, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_157", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529203<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAMPINES POLYCLINIC<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES STREET 41<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Singhealth Poly - Tampines<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>567281A1A32C5268<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.945849474748996, 1.35730995455714, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_158", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>138668<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CENTROS<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BIOPOLIS WAY<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>20<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Specialist Compounding Pharmacy Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>67680C15327969E2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.791792664273004, 1.30381616023544, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_159", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>308433<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAN TOCK SENG HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN TAN TOCK SENG<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>TAN TOCK SENG HOSPITAL PTE LTD (EMERGENCY PHARMACY)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6CA0ABAD98F195E9<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845389010681004, 1.32171598577179, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_160", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>82001<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TANJONG PAGAR PLAZA<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>THE DENTAL PHARM<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>BAFF6DF074565115<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.842393173168006, 1.27559620000156, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_161", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>308433<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAN TOCK SENG HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN TAN TOCK SENG<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>TTSH (CDC Pharmacy - Blk 810 Moulmein Road)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6CA0ABADB855AEEC<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845389010681004, 1.32171598577179, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_162", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>308433<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAN TOCK SENG HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN TAN TOCK SENG<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Tan Tock Seng Hospital (Outpatient & Retail Pharmacy)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6CA0ABAD5607E365<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845389010681004, 1.32171598577179, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_163", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>308433<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAN TOCK SENG HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN TAN TOCK SENG<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Tan Tock Seng Hospital (Pharmacy  Level 2)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6CA0ABAD8D1E5AD7<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845389010681004, 1.32171598577179, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_164", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>168938<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NATIONAL DENTAL CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SECOND HOSPITAL AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>The Dental Pharm<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>DFFC0F23AC250322<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.838232481914005, 1.27975902406242, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_165", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>289899<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ADAM ROAD JAPANESE CLUB<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>120<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>The Japanese Association Clinic  Singapore<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>7804A091D1121F6A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.815584351821002, 1.3302286871655, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_166", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>307677<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>THOMSON ROAD THOMSON MEDICAL CENTRE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>339<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Thomson Medical Centre<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5758D7578B405AB5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.841448453640993, 1.3253640685869, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_167", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>99253<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HARBOURFRONT CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>118<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MARITIME SQUARE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY (HBF)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B16E77F6073B1714<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.818625583667, 1.26206337173976, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_168", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>538766<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HOUGANG MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>35\/36<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOUGANG AVENUE 10<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>90<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY (HLC)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>22967B7C96D44ED0<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.893661609334998, 1.37231185733402, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_169", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>608549<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JEM<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>37<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG GATEWAY ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>50<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY (JEM)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B50E72A9F51EB58E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.743170429103998, 1.33320021580922, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_170", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238839<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>PLAZA SINGAPURA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>20A<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>68<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY (PSG)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0AFE0186E563E755<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845047624011002, 1.30074756196425, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_171", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>168732<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TIONG BAHRU PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>117<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TIONG BAHRU ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>302<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY (TBR) Tiong Bahru Plaza<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8CD16A2F0ADC2A13<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.826935082489996, 1.28646346132616, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_172", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529536<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAMPINES ONE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>11-Dec<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES CENTRAL 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY (TPO)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>817DF0366C774CC6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.945019457970005, 1.3543155616697, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_173", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>689578<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>YEWTEE POINT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>8-Sep<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>CHOA CHU KANG NORTH 6<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>21<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY (YTP)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8E2589EFF614119A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.746558068393995, 1.39730190678225, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_174", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>460212<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>147<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BEDOK NORTH STREET 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>212<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (BN(A))<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>920DA09BE9DE1E21<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.931640026856996, 1.32594069863812, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_175", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>528833<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>EASTPOINT MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SIMEI STREET 6<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (EPT)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>EDEAC9524DF9997C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.953024502926993, 1.3427061855347, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_176", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>569933<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>AMK HUB<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>21\/25<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ANG MO KIO AVENUE 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>53<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (HAMK)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8B54A7216449A5EB<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.848399227483995, 1.36924891643767, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_177", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>538766<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HOUGANG MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>35\/36<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOUGANG AVENUE 10<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>90<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (HGLS)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>22967B7CB17CE0AD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.893661609334998, 1.37231185733402, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_178", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>538692<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HOUGANG 1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOUGANG STREET 91<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (HGPT)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>AD262C99510B3F40<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.879450259183997, 1.37566727538473, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_179", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>556083<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NEX<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>37\/38<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SERANGOON CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>23<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (HNEX)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>7D7A3C0E04E44D6B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.871861620199994, 1.35067551423922, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_180", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>648886<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JURONG POINT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>9<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG WEST CENTRAL 2<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (JPT)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B0C9F9FF3B5DA8CB<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.706460884129996, 1.33983015348378, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_181", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>689812<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>LOT ONE SHOPPERS MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>4-May<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>CHOA CHU KANG AVENUE 4<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>21<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (LOT1)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>201016C1967D7C22<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.744950386856999, 1.38506836029318, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_182", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>449411<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>MARINE PARADE BRANCH LIBRARY<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MARINE PARADE CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (MP)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>54655371BC3D4C3D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.907112661381007, 1.30141955163034, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_183", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>437157<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>ONE KM<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>23\/24<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TANJONG KATONG ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (OKM)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D9488C64B333FF02<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.894480534165993, 1.31469214206398, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_184", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>820168<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>PUNGGOL PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1-Feb<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PUNGGOL FIELD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>168<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (PGOL)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9ECBF160919922DD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.912976447074001, 1.39418408936854, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_185", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>828761<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>WATERTOWN<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>26<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PUNGGOL CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>83<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (PGWW)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>DF8BD90A449344C4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.902073301521, 1.40648143230247, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_186", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238839<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>PLAZA SINGAPURA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>20A<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>68<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (PSG)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0AFE018616D6B299<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845047624011002, 1.30074756196425, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_187", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>540118<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>RIVERVALE PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>16<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>RIVERVALE DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>118<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (RVAL)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5B26CC50BE54EFF6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.901558023969002, 1.38493201852065, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_188", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>408600<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>SINGAPORE POST CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>122<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>EUNOS ROAD 8<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (SPO)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>22A148628B8936CE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.894731356004002, 1.3188694092953, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_189", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529510<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAMPINES MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>12<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES CENTRAL 5<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (TAML)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>20C5F8E05A8B6B77<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.944387990020005, 1.35267231861995, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_190", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>168732<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TIONG BAHRU PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>117<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TIONG BAHRU ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>302<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (TBRU)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8CD16A2FA2B74099<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.826935082489996, 1.28646346132616, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_191", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>81005<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TANJONG PAGAR PLAZA<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (TGP)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>F49745A5837501A7<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.843006119405999, 1.27624052704306, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_192", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>319398<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TOA PAYOH MRT STATION<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LORONG 6 TOA PAYOH<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>510<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (THDB)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E35B88031EA407AA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.847128319359001, 1.33289113559556, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_193", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>574408<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>THOMSON PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>102<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>UPPER THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>301<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (THPZ)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C62AE59992787277<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.830919790223007, 1.3546690242467, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_194", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>247933<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TANGLIN MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>13<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TANGLIN ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>163<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (TMA)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E947C82563FE77E5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.823852803679998, 1.30484344306554, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_195", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529536<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAMPINES ONE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>11-Dec<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES CENTRAL 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (TPO)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>817DF0368B02FD26<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.945019457970005, 1.3543155616697, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_196", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>119963<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>PSA BUILDING<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>4\/5\/2006<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ALEXANDRA ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>460<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UARC)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6FF31CBCEEB0D6BC<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.801126952741001, 1.27367658025915, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_197", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>150166<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>BUKIT MERAH AREA OFFICE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>3531<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT MERAH CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>166<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UBMC)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>2CF89B16C04D47E7<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.817642878697001, 1.28311949916043, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_198", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>677743<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>BUKIT PANJANG PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>6<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JELEBU ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UBPP)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>767C3F7F7CCA86AD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.763993946246003, 1.38054245503335, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_199", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>588996<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>BUKIT TIMAH PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN ANAK BUKIT<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UBTPZ)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>61CB5DE348A819FD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.778560469300999, 1.33865677365242, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_200", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>237994<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>GREAT WORLD CITY<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>14\/15<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>KIM SENG PROMENADE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UGWC)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5721B882CBE63416<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.831757914598995, 1.29380235820186, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_201", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>99253<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HARBOURFRONT CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>118\/119<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MARITIME SQUARE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UHBF)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B16E77F6F37CAB04<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.818625583667, 1.26206337173976, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_202", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>648331<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JURONG POINT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG WEST CENTRAL 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>63<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UHJPT )Hyper Jurong Point<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>F3DBAC583A7C8B9C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.705308194381004, 1.33936402101731, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_203", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>678278<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HILLION MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>64\/65<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PETIR ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>17<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UHLM)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>CCFE6DF42C9D58A3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.762741176290007, 1.37834971441738, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_204", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>608549<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JEM<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>37<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG GATEWAY ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>50<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UJEM)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B50E72A96F1E68F3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.743170429103998, 1.33320021580922, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_205", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>579837<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JUNCTION 8 SHOPPING CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>16<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BISHAN PLACE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>9<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UJX8)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0A7AAB3F6E9141C5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.848477635058998, 1.35023942096603, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_206", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>768019<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NORTHPOINT CITY<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>103-107<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NORTHPOINT DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UNPCT) North Point City<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C9DFE7471C7589B0<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.836142035129996, 1.42799995648726, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_207", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>797653<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>THE SELETAR MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>16\/17\/18<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SENGKANG WEST AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>33<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (USMA)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>13EFF182212B875F<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.876067663079994, 1.39139305906039, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_208", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>760849<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>KHATIB CENTRAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>3703<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>YISHUN RING ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>849<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UYSH)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>D81FACF51B7F77A2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.835218185046998, 1.41698316124314, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_209", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>608532<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>WESTGATE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>21<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>GATEWAY DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (WGA)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>62C44DAB389D113C<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.742586016847994, 1.33402528926324, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_210", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819663<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CHANGI AIRPORT TERMINAL 3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>57<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>65<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By Fairprice (CIA3)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9DAB7C2BC82081C6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.985169646079996, 1.35437073436533, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_211", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>129588<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>THE CLEMENTI MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>COMMONWEALTH AVENUE WEST<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3155<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By Fairprice (CLML)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>531B3D1E03F64A70<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.764248204763007, 1.31485323068366, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_212", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>689578<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>YEWTEE POINT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>8-Sep<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>CHOA CHU KANG NORTH 6<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>21<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By Fairprice (YTP)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8E2589EFB879D90A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.746558068393995, 1.39730190678225, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_213", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>828761<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>WATERTOWN<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>26<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PUNGGOL CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>83<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY Waterway Point (WWP)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>DF8BD90A8E0CABC3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.902073301521, 1.40648143230247, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_214", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>678278<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HILLION MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>64\/65<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PETIR ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>17<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Unity (HLM) Hillion Mall<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>CCFE6DF4199E14C8<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.762741176290007, 1.37834971441738, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_215", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>397628<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Sports Hub<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>29<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>STADIUM PLACE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Unity By FairPrice (HSPH) Sports Hub<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>ACB090FCB9626805<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.872750703245003, 1.30384327307314, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_216", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238863<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>LUCKY PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>38<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>304<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UrbanRx Compounding Pharmacy Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E7DDBBE5DA2B66AD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.833941937815993, 1.30448580007632, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_217", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>328201<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SERANGOON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1112<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>VERTEX PHARMACY PTE. LTD.<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>F2C47CE9A1A01DC5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.865499315882005, 1.3242810282521, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_218", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>160034<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>THE BEO CRESCENT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>850<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JALAN BUKIT HO SWEE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>34<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Vivahealth Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A8757D4B72EC2BB2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.827081283637995, 1.28807687668717, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_219", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>828761<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>WATERTOWN<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>31 TO 32<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PUNGGOL CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>83<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>DF8BD90AEB55B0A5<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.902073301521, 1.40648143230247, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_220", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>168732<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TIONG BAHRU PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>131 TO 132<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TIONG BAHRU ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>302<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>WATSONS PERSONAL CARE STORES (TIONG BAHRU PLAZA)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8CD16A2FEEF05107<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.826935082489996, 1.28646346132616, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_221", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>498787<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>LIAN SOON AMENITY CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ALPS AVENUE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>91<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>WESTMEAD PHARMACY PTE LTD<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>43711068A5A7B61D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 104.002513658564993, 1.37576196236282, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_222", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>738623<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>19<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>WOODLANDS STREET 12<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>WOODS PHARMACY PTE LTD<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>DA6D589DB2901AF1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.779746869403994, 1.43351253440852, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_223", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238863<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>LUCKY PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>26-30\/39-42<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>304<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Store Pte Ltd (Lucky Plaza)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E7DDBBE5160A89F3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.833941937815993, 1.30448580007632, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_224", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>460211<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Bedok Central<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>735\/737<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NEW UPPER CHANGI ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>211<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Bedok Central)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>F173A1D3A2FC36E4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.931967583214998, 1.32550084935603, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_225", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>467360<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>BEDOK MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>Dec-13<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NEW UPPER CHANGI ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>311<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Bedok Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>AD4532BD8E4FA50F<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.929267657362999, 1.32477208083125, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_226", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>188021<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>BUGIS JUNCTION<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>27 TO 33\/33A<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>VICTORIA STREET<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>200<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Bugis Junction)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>78AD955DD0A0FEF7<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.855327958990003, 1.29906798897959, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_227", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>677743<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>BUKIT PANJANG PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>30\/31<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JELEBU ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Bukit Panjang Plaza)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>767C3F7FD08C2EC1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.763993946246003, 1.38054245503335, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_228", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>738099<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CAUSEWAY POINT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>14\/15<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>WOODLANDS SQUARE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Causeway Point)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>97B88F9625ED9572<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.785688738337001, 1.43600784336274, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_229", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819663<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CHANGI AIRPORT TERMINAL 3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>24<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>65<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Changi Airport T3 Basement)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9DAB7C2B5B401940<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.985169646079996, 1.35437073436533, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_230", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819663<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CHANGI AIRPORT TERMINAL 3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>95\/96<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>65<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Changi Airport T3 Check in Hall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9DAB7C2B4BC636EE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.985169646079996, 1.35437073436533, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_231", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819665<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CHANGI AIRPORT TERMINAL 4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>7<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Changi Airport T4 Check in Hall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>081BDFD89E4A7E41<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.983569030384999, 1.33826733905461, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_232", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819663<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CHANGI AIRPORT TERMINAL 3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>66<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>65<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Changi Airport Terminal 3 Transit North)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9DAB7C2B3D6BA59B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.985169646079996, 1.35437073436533, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_233", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>819663<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>CHANGI AIRPORT TERMINAL 3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>29<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>AIRPORT BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>65<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Changi Airport Terminal 3 Transit)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>9DAB7C2B5F0C9B5A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.985169646079996, 1.35437073436533, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_234", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>129588<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>THE CLEMENTI MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>37\/38\/39<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>COMMONWEALTH AVENUE WEST<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>3155<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Clementi Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>531B3D1EC0D3E463<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.764248204763007, 1.31485323068366, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_235", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>545078<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>COMPASS ONE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>9<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SENGKANG SQUARE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Compass One)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A037D0CFDE708885<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.894980028960006, 1.39209415560853, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_236", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>237994<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>GREAT WORLD CITY<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>53A\/54<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>KIM SENG PROMENADE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Great World City)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5721B882104D7A47<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.831757914598995, 1.29380235820186, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_237", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>469662<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HEARTBEAT @ BEDOK<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>08 TO 10<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BEDOK NORTH STREET 1<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>11<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Heartbeat@bedok)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0DFA8582DD226835<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.931663531574003, 1.32699717215909, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_238", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>538766<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>HOUGANG MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HOUGANG AVENUE 10<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>90<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Hougang Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>22967B7C66A7F430<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.893661609334998, 1.37231185733402, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_239", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>609601<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>IMM BUILDING<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>54\/55<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG EAST STREET 21<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (IMM)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>091C6E62D044C490<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.746638239920003, 1.33502430217022, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_240", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>79903<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>INTERNATIONAL PLAZA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>62-67<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ANSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>10<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (International Plaza)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6E9A7090D59667D3<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.845703221283998, 1.2757356907569, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_241", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>608549<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JEM<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>7<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG GATEWAY ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>50<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Jem)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B50E72A9CA82CA02<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.743170429103998, 1.33320021580922, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_242", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>579837<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JUNCTION 8 SHOPPING CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>45\/46<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BISHAN PLACE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>9<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Junction 8)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>0A7AAB3F0406EAE0<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.848477635058998, 1.35023942096603, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_243", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>648886<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>JURONG POINT<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>Dec-13<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>JURONG WEST CENTRAL 2<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Jurong Point)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B0C9F9FFE23B3D76<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.706460884129996, 1.33983015348378, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_244", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>18984<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>MARINA BAY LINK MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>57\/58\/59<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MARINA BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>8A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Marina Bay Financial Centre)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>4AC38AF57027146E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.853349299214997, 1.28022768611889, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_245", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>39594<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>MARINA SQUARE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>212<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>RAFFLES BOULEVARD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Marina Square)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>6A17DE6DE0FB43A2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.857007334718006, 1.29145527172639, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_246", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>556083<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NEX<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>57<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SERANGOON CENTRAL<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>23<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (NEX)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>7D7A3C0EB2E3B3E6<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.871861620199994, 1.35067551423922, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_247", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238872<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NGEE ANN CITY<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>6-Sep<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD RD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>391<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Ngee Ann City)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8D58FD44FD0042EF<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.834676130166997, 1.30242417909429, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_248", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>768019<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NORTHPOINT CITY<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>161\/162\/163\/164<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NORTHPOINT DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (North Point)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C9DFE747F8AB5E3B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.836142035129996, 1.42799995648726, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_249", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>307683<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NOVENA SQUARE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>6\/7\/2009<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>238<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Novena Square)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>69066C3F8B57686E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.843656768212995, 1.32021101149494, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_250", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>119082<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NUH MEDICAL CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>33<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LOWER KENT RIDGE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (One@Kentridge)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>E3554DB6F94E59D1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.784084013897001, 1.29277432153154, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_251", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238859<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>THE PARAGON<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>32\/33\/37<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>290<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Paragon)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>EBC79349DF6391A4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.835240316416005, 1.30372321734212, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_252", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>449269<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>PARKWAY PARADE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>14\/15\/16<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>MARINE PARADE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>80<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Parkway Parade)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>1EE29CAC65AF0A3E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.905113594951004, 1.30119132286102, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_253", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>179103<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>RAFFLES CITY SHOPPING CENTRE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>42<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NORTH BRIDGE ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>252<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Raffles City)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>44EA023BE8310AFF<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.853119913433005, 1.29389358572057, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_254", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>98138<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>RESORTS WORLD SENTOSA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>71<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SENTOSA GATEWAY<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>26<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Resort World Sentosa)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>7C49F7078315EF8A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.819935358828005, 1.25629973367949, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_255", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>329566<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>Royal Square<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>2-Apr<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>IRRAWADDY ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>103<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Royal Square)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>941B3F192168B80D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.843219262773999, 1.32057156809253, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_256", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>529510<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>TAMPINES MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>7\/8\/2009<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>TAMPINES CENTRAL 5<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Tampines Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>20C5F8E080AA6B2A<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.944387990020005, 1.35267231861995, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_257", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>310190<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>510<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>LORONG 6 TOA PAYOH<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>190<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Toa Payoh HDB Hub)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>BC693A24E0311A94<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.847965424321004, 1.33297561827727, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_258", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>307591<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>UNITED SQUARE<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>53<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>THOMSON ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>101<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (United Square)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C5D237DF0AC63C1F<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.843463176990994, 1.31733463710903, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_259", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>98585<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>VIVO CITY<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>15-17<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>HARBOURFRONT WALK<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (Vivo City)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>A2D63E97A71A7309<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.821589252211993, 1.26389582040559, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_260", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>658713<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>WEST MALL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>26\/27<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>BUKIT BATOK CENTRAL LINK<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd (West Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>8DB8CB3B85FC9B2D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.749021980031003, 1.35018915711658, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_261", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238801<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>ION ORCHARD<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>12<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B4<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD TURN<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Watson's Personal Care Stores Pte Ltd Ion Orchard<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>724588672427F5A7<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.831395138106998, 1.30403578206272, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_262", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>188024<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>BUGIS JUNCTION<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>18<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>VICTORIA STREET<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>230<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Welcia-BHG Bugis Junction<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>B3621BAF8852D8E9<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.855786974720999, 1.3001424905036, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_263", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>768019<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>NORTHPOINT CITY<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>149<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>NORTHPOINT DRIVE<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Welcia-BHG Northpoint City<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>C9DFE7478B242572<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.836142035129996, 1.42799995648726, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_264", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>619771<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>WESTPOINT FAMILY HOSPITAL<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>CORPORATION DR<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>235<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>West Point Hospital Pharmacy<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>5E1958AFD6A3734E<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20190318143720<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.723001556439996, 1.33105591829525, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_265", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>289891<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ADAM ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>19<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>CONCORD HEALTHCARE RETAIL PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>30E3520AC9476C1D<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20180619141944<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.813318182192006, 1.32680246385575, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_266", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>518457<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>White Sands Mall<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>12<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PASIR RIS CENTRAL STREET 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (White Sands Mall)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>59D794C1EA318995<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20180619141944<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.949715696943997, 1.37244980890777, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_267", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>207713<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>MUSTAFA<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>0<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>SYED ALWI ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>171<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>MUSTAFA PHARMACY<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>1EC7EB90C7D69390<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20180619141944<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.856508109060997, 1.30906470546815, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_268", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>238869<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td>International Building<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>18<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>ORCHARD ROAD<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>360<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>Guardian Pharmacy (International Building)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>7E13339ECD2ECB2B<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20180619141944<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.831003324156001, 1.30607516858878, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "kml_269", "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>POSTAL_CODE<\/th> <td>518457<\/td> <\/tr><tr bgcolor=\"\"> <th>BUILDING_NAME<\/th> <td><\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>UNIT_NO<\/th> <td>2<\/td> <\/tr><tr bgcolor=\"\"> <th>LEVEL_NO<\/th> <td>B1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>ROAD_NAME<\/th> <td>PASIR RIS CENTRAL STREET 3<\/td> <\/tr><tr bgcolor=\"\"> <th>HOUSE_BLK_NO<\/th> <td>1<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>PHARMACY_NAME<\/th> <td>UNITY By FairPrice (UWSA)<\/td> <\/tr><tr bgcolor=\"\"> <th>INC_CRC<\/th> <td>59D794C14C7500B9<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>FMEL_UPD_D<\/th> <td>20180619141944<\/td> <\/tr><\/table><\/center>" }, "geometry": { "type": "Point", "coordinates": [ 103.949715696943997, 1.37244980890777, 0.0 ] } }
-]
+// A GeoJSON FeatureCollection representing pharmacies in Singapore. Data is retrieved from data.gov.sg
+// @typedef {Object} PharmacyCollection
+// @property {string} type - The type of the GeoJSON object, always "FeatureCollection".
+// @property {Object} crs - The coordinate reference system for the GeoJSON object.
+// @property {Object} crs.properties - The properties of the coordinate reference system.
+// @property {Object[]} features - An array of GeoJSON Feature objects, each representing a pharmacy.
+
+export const pharmacy = 
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Chinatown Point 4)",
+                "ADDRESSBLOCKHOUSENUMBER": "34",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Chinatown Point 4",
+                "ADDRESSSTREETNAME": "NEW BRIDGE ROAD",
+                "ADDRESSPOSTALCODE": "59413",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.844697087192,
+                    1.28499883313915,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (City Link)",
+                "ADDRESSBLOCKHOUSENUMBER": "67",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "City Link",
+                "ADDRESSSTREETNAME": "RAFFLES LINK",
+                "ADDRESSPOSTALCODE": "39393",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.854173508666,
+                    1.29277773939561,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (City Square Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "18/19",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "City Square Mall",
+                "ADDRESSSTREETNAME": "KITCHENER ROAD",
+                "ADDRESSPOSTALCODE": "208539",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.856487115197,
+                    1.31139350343283,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Clementi Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "59/60/61",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "Clementi Mall",
+                "ADDRESSSTREETNAME": "COMMONWEALTH AVENUE WEST",
+                "ADDRESSPOSTALCODE": "129588",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.764248204763,
+                    1.31485323068366,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Clifford Centre 2)",
+                "ADDRESSBLOCKHOUSENUMBER": "19/20/21",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Clifford Centre 2",
+                "ADDRESSSTREETNAME": "RAFFLES PLACE",
+                "ADDRESSPOSTALCODE": "48621",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.852128179258,
+                    1.2838569939881,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Compass One)",
+                "ADDRESSBLOCKHOUSENUMBER": "11",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Compass One",
+                "ADDRESSSTREETNAME": "SENGKANG SQUARE",
+                "ADDRESSPOSTALCODE": "545078",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.89498002896,
+                    1.39209415560853,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Departure Transit Lounge East)",
+                "ADDRESSBLOCKHOUSENUMBER": "69",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Departure Transit Lounge East",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819642",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.989707256049,
+                    1.3624910006739,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Departure Transit West T1)",
+                "ADDRESSBLOCKHOUSENUMBER": "16",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Departure Transit West T1",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819642",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.989707256049,
+                    1.3624910006739,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Departure/Check In Hall North)",
+                "ADDRESSBLOCKHOUSENUMBER": "12",
+                "ADDRESSFLOORNUMBER": "26",
+                "ADDRESSBUILDINGNAME": "Departure/Check In Hall North",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819643",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.988750980352,
+                    1.35519094499408,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Departure/Transit Lounge North Terminal 2)",
+                "ADDRESSBLOCKHOUSENUMBER": "095A",
+                "ADDRESSFLOORNUMBER": "26",
+                "ADDRESSBUILDINGNAME": "Departure/Transit Lounge North Terminal 2",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819643",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.988750980352,
+                    1.35519094499408,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Departure/Transit Lounge South)",
+                "ADDRESSBLOCKHOUSENUMBER": "115-01",
+                "ADDRESSFLOORNUMBER": "26",
+                "ADDRESSBUILDINGNAME": "Departure/Transit Lounge South",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819643",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.988750980352,
+                    1.35519094499408,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Gleneagles)",
+                "ADDRESSBLOCKHOUSENUMBER": "6-Aug",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Gleneagles",
+                "ADDRESSSTREETNAME": "NAPIER ROAD",
+                "ADDRESSPOSTALCODE": "258499",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.820124456725,
+                    1.30706156876825,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Great World City)",
+                "ADDRESSBLOCKHOUSENUMBER": "18/19",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Great World City",
+                "ADDRESSSTREETNAME": "KIM SENG PROMENADE",
+                "ADDRESSPOSTALCODE": "237994",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.831757914599,
+                    1.29380235820186,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (H205)",
+                "ADDRESSBLOCKHOUSENUMBER": "129",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "H205",
+                "ADDRESSSTREETNAME": "HOUGANG STREET 21",
+                "ADDRESSPOSTALCODE": "530205",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.885079921543,
+                    1.35949664734933,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Harbourfront Centre)",
+                "ADDRESSBLOCKHOUSENUMBER": "111/112",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Harbourfront Centre",
+                "ADDRESSSTREETNAME": "MARITIME SQUARE",
+                "ADDRESSPOSTALCODE": "99253",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.818625583667,
+                    1.26206337173976,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Holland Shopping Centre)",
+                "ADDRESSBLOCKHOUSENUMBER": "11",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Holland Shopping Centre",
+                "ADDRESSSTREETNAME": "HOLLAND AVE",
+                "ADDRESSPOSTALCODE": "278967",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.795350445461,
+                    1.31025541990594,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Hougang Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "31",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Hougang Mall",
+                "ADDRESSSTREETNAME": "HOUGANG AVENUE 10",
+                "ADDRESSPOSTALCODE": "538766",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.893661609335,
+                    1.37231185733402,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (IMM2)",
+                "ADDRESSBLOCKHOUSENUMBER": "56/57",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "IMM2",
+                "ADDRESSSTREETNAME": "JURONG EAST ST 21",
+                "ADDRESSPOSTALCODE": "609601",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.74663823992,
+                    1.33502430217022,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (ION)",
+                "ADDRESSBLOCKHOUSENUMBER": "2",
+                "ADDRESSFLOORNUMBER": "B4",
+                "ADDRESSBUILDINGNAME": "ION",
+                "ADDRESSSTREETNAME": "ORCHARD TURN",
+                "ADDRESSPOSTALCODE": "238801",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.831395138107,
+                    1.30403578206272,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (JEM)",
+                "ADDRESSBLOCKHOUSENUMBER": "16/17",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "JEM",
+                "ADDRESSSTREETNAME": "JURONG GATEWAY ROAD",
+                "ADDRESSPOSTALCODE": "608549",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.743170429104,
+                    1.33320021580922,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Jelita)",
+                "ADDRESSBLOCKHOUSENUMBER": "10",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Jelita",
+                "ADDRESSSTREETNAME": "HOLLAND RD",
+                "ADDRESSPOSTALCODE": "278628",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.785840618421,
+                    1.31756196835634,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Jurong Point 2)",
+                "ADDRESSBLOCKHOUSENUMBER": "27/28",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Jurong Point 2",
+                "ADDRESSSTREETNAME": "JURONG WEST CENTRAL 3",
+                "ADDRESSPOSTALCODE": "648331",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.705308194381,
+                    1.33936402101731,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Jurong West Blk 503)",
+                "ADDRESSBLOCKHOUSENUMBER": "845",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Jurong West Blk 503",
+                "ADDRESSSTREETNAME": "JURONG WEST AVENUE 1",
+                "ADDRESSPOSTALCODE": "640503",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.717704811505,
+                    1.34995540028616,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Kallang Leisure Park 2)",
+                "ADDRESSBLOCKHOUSENUMBER": "23",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Kallang Leisure Park 2",
+                "ADDRESSSTREETNAME": "STADIUM WALK",
+                "ADDRESSPOSTALCODE": "397693",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.876152670397,
+                    1.3022217738606,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Katong Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "7",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Katong Mall",
+                "ADDRESSSTREETNAME": "EAST COAST ROAD",
+                "ADDRESSPOSTALCODE": "428802",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.905014935834,
+                    1.3052347202485,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (LOT 1)",
+                "ADDRESSBLOCKHOUSENUMBER": "26/27",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "LOT 1",
+                "ADDRESSSTREETNAME": "CHOA CHU KANG AVENUE 4",
+                "ADDRESSPOSTALCODE": "689812",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.744950386857,
+                    1.38506836029318,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Lavender MRT Station)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Lavender MRT Station",
+                "ADDRESSSTREETNAME": "KALLANG ROAD",
+                "ADDRESSPOSTALCODE": "208699",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.862767638972,
+                    1.307377508298,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Marina Bay Sands)",
+                "ADDRESSBLOCKHOUSENUMBER": "49",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "Marina Bay Sands",
+                "ADDRESSSTREETNAME": "BAYFRONT AVENUE",
+                "ADDRESSPOSTALCODE": "18972",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.858505752034,
+                    1.28355872902487,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Mount Elizabeth)",
+                "ADDRESSBLOCKHOUSENUMBER": "10-Nov",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Mount Elizabeth",
+                "ADDRESSSTREETNAME": "MOUNT ELIZABETH",
+                "ADDRESSPOSTALCODE": "228510",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.835439347424,
+                    1.30516521414743,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Pagoda Street)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "Pagoda Street",
+                "ADDRESSSTREETNAME": "PAGODA STREET",
+                "ADDRESSPOSTALCODE": "59221",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.844086263705,
+                    1.28376231214434,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Paragon)",
+                "ADDRESSBLOCKHOUSENUMBER": "20/24",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Paragon",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238859",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.835240316416,
+                    1.30372321734212,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Parkway Parade)",
+                "ADDRESSBLOCKHOUSENUMBER": "147-149/155A",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Parkway Parade",
+                "ADDRESSSTREETNAME": "MARINE PARADE ROAD",
+                "ADDRESSPOSTALCODE": "449269",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.905113594951,
+                    1.30119132286102,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Plaza Singapura)",
+                "ADDRESSBLOCKHOUSENUMBER": "13/14",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "Plaza Singapura",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238839",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845047624011,
+                    1.30074756196425,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Raffles City)",
+                "ADDRESSBLOCKHOUSENUMBER": "11",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Raffles City",
+                "ADDRESSSTREETNAME": "NORTH BRIDGE RD",
+                "ADDRESSPOSTALCODE": "179103",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.853119913433,
+                    1.29389358572057,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Raffles Place MRT 3)",
+                "ADDRESSBLOCKHOUSENUMBER": "37-40/43-45",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Raffles Place MRT 3",
+                "ADDRESSSTREETNAME": "RAFFLES PLACE",
+                "ADDRESSPOSTALCODE": "48618",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.851379782035,
+                    1.28433393431627,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Seletar Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "10-Nov",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Seletar Mall",
+                "ADDRESSSTREETNAME": "SENGKANG WEST AVENUE",
+                "ADDRESSPOSTALCODE": "797653",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.87606766308,
+                    1.39139305906039,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Serangoon Garden)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "Serangoon Garden",
+                "ADDRESSSTREETNAME": "SERANGOON GARDEN WAY",
+                "ADDRESSPOSTALCODE": "555962",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.865452652785,
+                    1.36414322114501,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Serangoon NEX)",
+                "ADDRESSBLOCKHOUSENUMBER": "62/63",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Serangoon NEX",
+                "ADDRESSSTREETNAME": "SERANGOON CENTRAL",
+                "ADDRESSPOSTALCODE": "556083",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8718616202,
+                    1.35067551423922,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Star Vista)",
+                "ADDRESSBLOCKHOUSENUMBER": "16",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Star Vista",
+                "ADDRESSSTREETNAME": "VISTA EXCHANGE GREEN",
+                "ADDRESSPOSTALCODE": "138617",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.788214532235,
+                    1.3068488257737,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Sun Plaza 2)",
+                "ADDRESSBLOCKHOUSENUMBER": "11",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Sun Plaza 2",
+                "ADDRESSSTREETNAME": "SEMBAWANG DRIVE",
+                "ADDRESSPOSTALCODE": "757713",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.819462112616,
+                    1.44822653003392,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Suntec City)",
+                "ADDRESSBLOCKHOUSENUMBER": "328/329",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Suntec City",
+                "ADDRESSSTREETNAME": "TEMASEK BOULEVARD",
+                "ADDRESSPOSTALCODE": "38983",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.857675495254,
+                    1.2948790592606,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Tai Seng Street)",
+                "ADDRESSBLOCKHOUSENUMBER": "19-21",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Tai Seng Street",
+                "ADDRESSSTREETNAME": "TAI SENG STREET",
+                "ADDRESSPOSTALCODE": "539775",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.888762712133,
+                    1.3365386711551,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Takashimaya S. C. )",
+                "ADDRESSBLOCKHOUSENUMBER": "15-23",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "Takashimaya S. C.",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238872",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.834676130167,
+                    1.30242417909429,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Tampines MRT)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Tampines MRT",
+                "ADDRESSSTREETNAME": "TAMPINES CENTRAL 1",
+                "ADDRESSPOSTALCODE": "529538",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.944838297789,
+                    1.35364657681096,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Tampines Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "18/19",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Tampines Mall",
+                "ADDRESSSTREETNAME": "TAMPINES CENTRAL 5",
+                "ADDRESSPOSTALCODE": "529510",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.94438799002,
+                    1.35267231861995,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Tanglin Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "18",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Tanglin Mall",
+                "ADDRESSSTREETNAME": "TANGLIN ROAD",
+                "ADDRESSPOSTALCODE": "247933",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.82385280368,
+                    1.30484344306554,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (The Centrepoint)",
+                "ADDRESSBLOCKHOUSENUMBER": "01/02/03/04",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "The Centrepoint",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238843",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.839758893919,
+                    1.30197804806506,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Thomson Plaza 2)",
+                "ADDRESSBLOCKHOUSENUMBER": "48",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "Thomson Plaza 2",
+                "ADDRESSSTREETNAME": "UPPER THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "574408",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.830919790223,
+                    1.3546690242467,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Tiong Bahru Plaza)",
+                "ADDRESSBLOCKHOUSENUMBER": "125",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Tiong Bahru Plaza",
+                "ADDRESSSTREETNAME": "TIONG BAHRU ROAD",
+                "ADDRESSPOSTALCODE": "168732",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.82693508249,
+                    1.28646346132616,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Toa Payoh Blk 190)",
+                "ADDRESSBLOCKHOUSENUMBER": "578",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Toa Payoh Blk 190",
+                "ADDRESSSTREETNAME": "LORONG 6 TOA PAYOH",
+                "ADDRESSPOSTALCODE": "310190",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.847965424321,
+                    1.33297561827727,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (United Square 2)",
+                "ADDRESSBLOCKHOUSENUMBER": "28",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "United Square 2",
+                "ADDRESSSTREETNAME": "THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "307591",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.843463176991,
+                    1.31733463710903,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Vivo City)",
+                "ADDRESSBLOCKHOUSENUMBER": "23",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Vivo City",
+                "ADDRESSSTREETNAME": "HARBOURFRONT WALK",
+                "ADDRESSPOSTALCODE": "98585",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.821589252212,
+                    1.26389582040559,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (WRS)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "WRS",
+                "ADDRESSSTREETNAME": "TAMPINES NORTH DRIVE 2",
+                "ADDRESSPOSTALCODE": "528765",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.931999894938,
+                    1.37210169899061,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (West Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "27",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "West Mall",
+                "ADDRESSSTREETNAME": "BUKIT BATOK CENTRAL LINK",
+                "ADDRESSPOSTALCODE": "658713",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.749021980031,
+                    1.35018915711658,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Westgate)",
+                "ADDRESSBLOCKHOUSENUMBER": "20",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Westgate",
+                "ADDRESSSTREETNAME": "GATEWAY DRIVE",
+                "ADDRESSPOSTALCODE": "608532",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.742586016848,
+                    1.33402528926324,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Yew Tee MRT)",
+                "ADDRESSBLOCKHOUSENUMBER": "02A",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Yew Tee MRT",
+                "ADDRESSSTREETNAME": "CHOA CHU KANG DRIVE",
+                "ADDRESSPOSTALCODE": "689715",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.747329722792,
+                    1.39712885562235,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Zhongsan Park)",
+                "ADDRESSBLOCKHOUSENUMBER": "20/21",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Zhongsan Park",
+                "ADDRESSSTREETNAME": "AH HOOD ROAD",
+                "ADDRESSPOSTALCODE": "329984",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84647646119,
+                    1.32708486276788,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Healing Hub @ Ang Mo Kio - Thye Hua Kwan Hospital",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Thye Hua Kwan Hospital",
+                "ADDRESSSTREETNAME": "ANG MO KIO AVE 9",
+                "ADDRESSPOSTALCODE": "569766",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.840172119463,
+                    1.38427915854095,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Johns Hopkins Singapore International Medical Centre Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "JALAN TAN TOCK SENG",
+                "ADDRESSPOSTALCODE": "308433",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845389010681,
+                    1.32171598577179,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jurong Community Hospital Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Jurong Community Hospital",
+                "ADDRESSSTREETNAME": "JURONG EAST STREET 21",
+                "ADDRESSPOSTALCODE": "609606",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.743865457667,
+                    1.33553382005591,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jurong Medical Centre Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "8",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "JURONG WEST CENTRAL 3",
+                "ADDRESSPOSTALCODE": "648346",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.70445268171,
+                    1.3404695704551,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "KK Emergency Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "OV92A",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BUKIT TIMAH ROAD",
+                "ADDRESSPOSTALCODE": "229899",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.846650080461,
+                    1.3104485343334,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "KK Outpatient Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "1R20A",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BUKIT TIMAH ROAD",
+                "ADDRESSPOSTALCODE": "229899",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.846650080461,
+                    1.3104485343334,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Khoo Teck Puat Hospital Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "YISHUN CENTRAL",
+                "ADDRESSPOSTALCODE": "768828",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.837853670556,
+                    1.4238775983318,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "MANAPHARMA",
+                "ADDRESSBLOCKHOUSENUMBER": "799",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "HOUGANG AVENUE 7",
+                "ADDRESSPOSTALCODE": "530356",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.898813152707,
+                    1.37259313275845,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "MEDI-LINK PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "182",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "KING GEORGE'S AVENUE",
+                "ADDRESSPOSTALCODE": "200803",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.860912790695,
+                    1.30836526479411,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "MOHAMED MUSTAFA & SAMSUDDIN CO PTE LTD (MUSTAFA CENTRE)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "MUSTAFA CENTRE",
+                "ADDRESSSTREETNAME": "SYED ALWI RD",
+                "ADDRESSPOSTALCODE": "207704",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.85499981962,
+                    1.31053196208373,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "MOUNT ELIZABETH NOVENA HOSPITAL PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "4",
+                "ADDRESSBUILDINGNAME": "MOUNT ELIZABETH NOVENA HOSPITAL",
+                "ADDRESSSTREETNAME": "IRRAWADDY ROAD",
+                "ADDRESSPOSTALCODE": "329563",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84422625836,
+                    1.3221465582724,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "MT ALVERNIA HOSPITAL RETAIL PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "MT ALVERNIA HOSPITAL",
+                "ADDRESSSTREETNAME": "THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "574623",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.837524327839,
+                    1.34180969642913,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Mount Alvernia Hospital (Main Pharmacy)",
+                "ADDRESSBLOCKHOUSENUMBER": "29",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Mount Alvernia Hospital",
+                "ADDRESSSTREETNAME": "THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "574623",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.837524327839,
+                    1.34180969642913,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Mount Elizabeth Hospital",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Mount Elizabeth Hospital",
+                "ADDRESSSTREETNAME": "MOUNT ELIZABETH",
+                "ADDRESSPOSTALCODE": "228510",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.835439347424,
+                    1.30516521414743,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NATIONAL CANCER CENTRE PHARMACY (LEVEL 1)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "NATIONAL CANCER CENTRE",
+                "ADDRESSSTREETNAME": "HOSPITAL DR",
+                "ADDRESSPOSTALCODE": "169610",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.836531564343,
+                    1.27929090033647,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NATIONAL CANCER CENTRE PHARMACY (LEVEL 3)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "NATIONAL CANCER CENTRE",
+                "ADDRESSSTREETNAME": "HOSPITAL DR",
+                "ADDRESSPOSTALCODE": "169610",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.836531564343,
+                    1.27929090033647,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NATIONAL SKIN CENTRE (S) PTE LTD (PHARMACY)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "MANDALAY RD",
+                "ADDRESSPOSTALCODE": "308205",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.849006945923,
+                    1.31968290585282,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NATIONAL UNIVERSITY HOSPITAL (S) PTE LTD (RETAIL PHARMACY)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "LOWER KENT RIDGE ROAD",
+                "ADDRESSPOSTALCODE": "119074",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.782710306478,
+                    1.29395579048752,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NATIONAL UNIVERSITY HOSPITAL(S) PTE LTD (MEDICAL CENTRE PHARMACY)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "LOWER KENT RIDGE ROAD",
+                "ADDRESSPOSTALCODE": "119082",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.784084013897,
+                    1.29277432153154,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NHG Pharmacy (CCK Polyclinic)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "TECK WHYE CRESCENT",
+                "ADDRESSPOSTALCODE": "688846",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.750776877796,
+                    1.38234138480857,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NHG Pharmacy (Yishun)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "YISHUN CENTRAL 1",
+                "ADDRESSPOSTALCODE": "768796",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8383334142,
+                    1.42653750597707,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NTUC Healthcare (BTP)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "JALAN ANAK BUKIT",
+                "ADDRESSPOSTALCODE": "588996",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.778560469301,
+                    1.33865677365242,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "NTUC Healthcare - The Living Pharmacy (TSP)",
+                "ADDRESSBLOCKHOUSENUMBER": "102",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "UPPER THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "574408",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.830919790223,
+                    1.3546690242467,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Addiction Management Services (NAMS) Clinic Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "BLK 9",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BUANGKOK VIEW",
+                "ADDRESSPOSTALCODE": "539747",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.883348795228,
+                    1.38158954889555,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Ang Mo Kio)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "ANG MO KIO CENTRAL 2",
+                "ADDRESSPOSTALCODE": "569666",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845608355592,
+                    1.3743114848527,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Ang Mo Kio)",
+                "ADDRESSBLOCKHOUSENUMBER": "4136",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "ANG MO KIO AVENUE 8",
+                "ADDRESSPOSTALCODE": "560723",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.847182023169,
+                    1.37231859836598,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Bukit Batok)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BUKIT BATOK WEST AVE 3",
+                "ADDRESSPOSTALCODE": "659164",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.747822269279,
+                    1.35201516757708,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Clementi)",
+                "ADDRESSBLOCKHOUSENUMBER": "307",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "CLEMENTI AVENUE 3",
+                "ADDRESSPOSTALCODE": "120451",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.765476761292,
+                    1.31248298606182,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Geylang)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "GEYLANG POLYCLINIC",
+                "ADDRESSSTREETNAME": "GEYLANG EAST CENTRAL",
+                "ADDRESSPOSTALCODE": "389707",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.88716604212,
+                    1.31949366288669,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Hougang)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "HOUGANG AVE 4",
+                "ADDRESSPOSTALCODE": "538829",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.888996393185,
+                    1.37001805225518,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Jurong)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "JURONG EAST AVE 1",
+                "ADDRESSPOSTALCODE": "609788",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.730717872533,
+                    1.34971979274729,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Pioneer)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "JURONG WEST STREET 61",
+                "ADDRESSPOSTALCODE": "648201",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.698979343273,
+                    1.33856225076873,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Queenstown)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "STIRLING ROAD",
+                "ADDRESSPOSTALCODE": "148958",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.800957799118,
+                    1.29847548246501,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Toa Payoh)",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "LORONG 8 TOA PAYOH",
+                "ADDRESSPOSTALCODE": "319260",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.858956450507,
+                    1.33448028001705,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Woodlands)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "WOODLANDS STREET 31",
+                "ADDRESSPOSTALCODE": "738579",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.775212924656,
+                    1.43089322864369,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Healthcare Group Pharmacy (Yishun)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "YISHUN AVENUE 9",
+                "ADDRESSPOSTALCODE": "768898",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.839190702134,
+                    1.43035851618124,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National Heart Centre Singapore",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "HOSPITAL DRIVE",
+                "ADDRESSPOSTALCODE": "169609",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.835954422994,
+                    1.27863260741604,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National University Hosital - Kent Ridge Wing Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "LOWER KENT RIDGE ROAD",
+                "ADDRESSPOSTALCODE": "119074",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.782710306478,
+                    1.29395579048752,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "National University Hospital (s) Pte Ltd (Pharmacy @ NCIS)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "9",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "LOWER KENT RIDGE ROAD",
+                "ADDRESSPOSTALCODE": "119082",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.784084013897,
+                    1.29277432153154,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ng Teng Fong General Hospital Outpatient & Retail Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "L2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "JURONG EAST STREET 21",
+                "ADDRESSPOSTALCODE": "609606",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.743865457667,
+                    1.33553382005591,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nishino Pharmacy (Shaw House)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238868",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.831507327539,
+                    1.30580979402183,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nishino Pharmacy (Takashimaya)",
+                "ADDRESSBLOCKHOUSENUMBER": "17",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238873",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.834676130167,
+                    1.30242417909429,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "P & L Pharmacy Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "40",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "TANGLIN ROAD",
+                "ADDRESSPOSTALCODE": "247909",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.827036521629,
+                    1.30637275109892,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "PARKWAY EAST HOSPITAL PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "JOO CHIAT PLACE",
+                "ADDRESSPOSTALCODE": "427990",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.908756860126,
+                    1.3150882403844,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "PHARMACY @ CGH MEDICAL CENTRE",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "SIMEI STREET 3",
+                "ADDRESSPOSTALCODE": "529906",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.949280034146,
+                    1.33948749359899,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Pacific Pharmacy Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "37",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "JALAN JURONG KECHIL",
+                "ADDRESSPOSTALCODE": "596180",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.773649138565,
+                    1.34054847027196,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Pharmacy A  Changi General Hospital",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "SIMEI STREET 3",
+                "ADDRESSPOSTALCODE": "529889",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.949294393687,
+                    1.34068473250176,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Pharmacy Services Centre  NHG (Blk 9)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BUANGKOK VIEW",
+                "ADDRESSPOSTALCODE": "539747",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.883348795228,
+                    1.38158954889555,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Pharmacy@IB  CGH (The Integrated Building)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "J1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "SIMEI STREET 3",
+                "ADDRESSPOSTALCODE": "529889",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.949294393687,
+                    1.34068473250176,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Princeton Pharmacy (S) Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "2",
+                "ADDRESSFLOORNUMBER": "5",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "CLEMENTI LOOP",
+                "ADDRESSPOSTALCODE": "129808",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.763539550591,
+                    1.32518140385333,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "R & D PHARMACEUTICAL PTE LTD",
+                "ADDRESSBLOCKHOUSENUMBER": "267",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "SERANGOON CENTRAL DRIVE",
+                "ADDRESSPOSTALCODE": "550265",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.871472213275,
+                    1.35296373463347,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Raffles Health Holland V",
+                "ADDRESSBLOCKHOUSENUMBER": "4",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "HOLLAND AVENUE",
+                "ADDRESSPOSTALCODE": "278997",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.796105204144,
+                    1.31052978566284,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "SGH Retail Pharmacy (Blk 4)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "HOSPITAL DRIVE",
+                "ADDRESSPOSTALCODE": "169608",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.830721779428,
+                    1.27993969513111,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "SINGAPORE NATIONAL EYE CENTRE PTE LTD",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "THIRD HOSPITAL AVE",
+                "ADDRESSPOSTALCODE": "168751",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.835736520938,
+                    1.2810802595994,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "SINGHEALTH POLY-OUTRAM",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "HEALTH PROMOTION BOARD",
+                "ADDRESSSTREETNAME": "SECOND HOSPITAL AVENUE",
+                "ADDRESSPOSTALCODE": "168937",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.838315051332,
+                    1.27933147000029,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "SMITH PHARMACY PTE LTD",
+                "ADDRESSBLOCKHOUSENUMBER": "416",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "KIM KEAT VIEW",
+                "ADDRESSSTREETNAME": "KIM KEAT AVENUE",
+                "ADDRESSPOSTALCODE": "310194",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.858181911662,
+                    1.33093934294921,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "ST ANDREW'S COMMUNITY HOSPITAL PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "SAINT ANDREW'S HOSPITAL",
+                "ADDRESSSTREETNAME": "SIMEI STREET 3",
+                "ADDRESSPOSTALCODE": "529895",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.94875944263,
+                    1.34177633813431,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "ST LUKE'S HOSPITAL BLOCK A",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "ST LUKE'S HOSPITAL",
+                "ADDRESSSTREETNAME": "BUKIT BATOK STREET 11",
+                "ADDRESSPOSTALCODE": "659674",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.741877626648,
+                    1.34953606994152,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "SUMANG FAMILY PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "6",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "SUMANG WALK",
+                "ADDRESSPOSTALCODE": "820218",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.895387026654,
+                    1.40322711689378,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Sengkang Pharmacy (Main Building Blk1)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "ALEXANDRA HOSPITAL",
+                "ADDRESSSTREETNAME": "ALEXANDRA ROAD",
+                "ADDRESSPOSTALCODE": "159964",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.799444847104,
+                    1.2881222150317,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Singapore General Hospital Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "SINGAPORE GENERAL HOSPITAL",
+                "ADDRESSSTREETNAME": "OUTRAM RD",
+                "ADDRESSPOSTALCODE": "169608",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.830721779428,
+                    1.27993969513111,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Singhealth Poly - Bedok",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "HEARTBEAT @ BEDOK",
+                "ADDRESSSTREETNAME": "BEDOK NORTH STREET 1",
+                "ADDRESSPOSTALCODE": "469662",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.931663531574,
+                    1.32699717215909,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Singhealth Poly - Bukit Merah",
+                "ADDRESSBLOCKHOUSENUMBER": "3565 & 3575",
+                "ADDRESSFLOORNUMBER": "4",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BUKIT MERAH CENTRAL",
+                "ADDRESSPOSTALCODE": "150163",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.816939548696,
+                    1.28388121594126,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "A.M. Pharmacy Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "6",
+                "ADDRESSFLOORNUMBER": "4",
+                "ADDRESSBUILDINGNAME": "ORCHARD PLAZA",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238841",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84115014506,
+                    1.30125729612723,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "ALPS PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "1-Feb",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "LIAN SOON AMENITY CENTRE",
+                "ADDRESSSTREETNAME": "ALPS AVENUE",
+                "ADDRESSPOSTALCODE": "498787",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.002513658565,
+                    1.37576196236282,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Admiralty Medical Centre Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "WOODLANDS DRIVE 71",
+                "ADDRESSPOSTALCODE": "730676",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.800701210433,
+                    1.43991608082307,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Airport Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "55/56",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "CHANGI AIRPORT TERMINAL 4",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819665",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.983569030385,
+                    1.33826733905461,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Alchemy Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "14",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "LOYANG POINT",
+                "ADDRESSSTREETNAME": "PASIR RIS STREET 21",
+                "ADDRESSPOSTALCODE": "510258",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.964617783723,
+                    1.36700053331185,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Amber Compounding Pharmacy Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "SOUTH BRIDGE ROAD",
+                "ADDRESSPOSTALCODE": "58770",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845873082146,
+                    1.28289735579849,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "CGH Pharmacy B",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "SIMEI STREET 3 CHANGI GENERAL HOSPITAL",
+                "ADDRESSPOSTALCODE": "529889",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.949294393687,
+                    1.34068473250176,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Child Guidance Clinic  Health Promotion Board",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "HEALTH PROMOTION BOARD",
+                "ADDRESSSTREETNAME": "SECOND HOSPITAL AVENUE",
+                "ADDRESSPOSTALCODE": "168937",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.838315051332,
+                    1.27933147000029,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Clinic B Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "BLK 1",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "INSTITUTE OF MENTAL HEALTH",
+                "ADDRESSSTREETNAME": "BUANGKOK VIEW",
+                "ADDRESSPOSTALCODE": "539747",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.883348795228,
+                    1.38158954889555,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "E+MED PTE LTD",
+                "ADDRESSBLOCKHOUSENUMBER": "422",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BISHAN STREET 11",
+                "ADDRESSPOSTALCODE": "572505",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.848526719408,
+                    1.34870136449109,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "E+MED Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "5",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "BEAUTY WORLD CENTRE",
+                "ADDRESSSTREETNAME": "UPPER BUKIT TIMAH ROAD",
+                "ADDRESSPOSTALCODE": "588177",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.776250535845,
+                    1.34239283575288,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Essentials Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "23",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "PEOPLE'S PARK CENTRE",
+                "ADDRESSSTREETNAME": "UPPER CROSS STREET",
+                "ADDRESSPOSTALCODE": "58357",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.843852004525,
+                    1.28549527251536,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Farrer Park Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "3",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "CONNEXION",
+                "ADDRESSSTREETNAME": "FARRER PARK STATION ROAD",
+                "ADDRESSPOSTALCODE": "217562",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.853842191627,
+                    1.3127566809207,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "GLENEAGLES HOSPITAL",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "NAPIER ROAD GLENEAGLES HOSPITAL",
+                "ADDRESSPOSTALCODE": "258500",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.819420895066,
+                    1.30736473965355,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "GRACE HEALTHCARE",
+                "ADDRESSBLOCKHOUSENUMBER": "110",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BUKIT BATOK CENTRAL",
+                "ADDRESSPOSTALCODE": "650634",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.751531282871,
+                    1.34973961735749,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy ( Waterway Point)",
+                "ADDRESSBLOCKHOUSENUMBER": "4",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Waterway Point",
+                "ADDRESSSTREETNAME": "PUNGGOL CENTRAL",
+                "ADDRESSPOSTALCODE": "828761",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.902073301521,
+                    1.40648143230247,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (313 @ Somerset)",
+                "ADDRESSBLOCKHOUSENUMBER": "13/14",
+                "ADDRESSFLOORNUMBER": "B3",
+                "ADDRESSBUILDINGNAME": "313 @ Somerset",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238895",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.837684360221,
+                    1.30138510756215,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Admiralty)",
+                "ADDRESSBLOCKHOUSENUMBER": "39",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Admiralty",
+                "ADDRESSSTREETNAME": "WOODLANDS AVENUE 6",
+                "ADDRESSPOSTALCODE": "731678",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.801537360417,
+                    1.4403636667802,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Amara Hotel)",
+                "ADDRESSBLOCKHOUSENUMBER": "9",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Amara Hotel",
+                "ADDRESSSTREETNAME": "TRAS STREET",
+                "ADDRESSPOSTALCODE": "79027",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.843470745358,
+                    1.27458821970543,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Ang Mo Kio 3)",
+                "ADDRESSBLOCKHOUSENUMBER": "2559",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Ang Mo Kio 3",
+                "ADDRESSSTREETNAME": "ANG MO KIO AVENUE 8",
+                "ADDRESSPOSTALCODE": "560704",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.847230719199,
+                    1.37040711481372,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Bedok Central)",
+                "ADDRESSBLOCKHOUSENUMBER": "715",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Bedok Central",
+                "ADDRESSSTREETNAME": "NEW UPPER CHANGI ROAD",
+                "ADDRESSPOSTALCODE": "460210",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.931819172592,
+                    1.32460705860301,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Bedok Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "45/47",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "Bedok Mall",
+                "ADDRESSSTREETNAME": "NEW UPPER CHANGI ROAD",
+                "ADDRESSPOSTALCODE": "467360",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.929267657363,
+                    1.32477208083125,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Bishan Place)",
+                "ADDRESSBLOCKHOUSENUMBER": "8",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Bishan Place",
+                "ADDRESSSTREETNAME": "BISHAN PLACE",
+                "ADDRESSPOSTALCODE": "579837",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.848477635059,
+                    1.35023942096603,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Bugis Junction 3)",
+                "ADDRESSBLOCKHOUSENUMBER": "20/21",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Bugis Junction 3",
+                "ADDRESSSTREETNAME": "VICTORIA STREET",
+                "ADDRESSPOSTALCODE": "188021",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.85532795899,
+                    1.29906798897959,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Bugis MRT)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Bugis MRT",
+                "ADDRESSSTREETNAME": "VICTORIA STREET",
+                "ADDRESSPOSTALCODE": "188022",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.855614760659,
+                    1.30026469884522,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Bukit Panjang Plaza)",
+                "ADDRESSBLOCKHOUSENUMBER": "1/2/2003",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Bukit Panjang Plaza",
+                "ADDRESSSTREETNAME": "JELEBU ROAD",
+                "ADDRESSPOSTALCODE": "677743",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.763993946246,
+                    1.38054245503335,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Causeway Point)",
+                "ADDRESSBLOCKHOUSENUMBER": "28/30",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Causeway Point",
+                "ADDRESSSTREETNAME": "WOODLANDS SQUARE",
+                "ADDRESSPOSTALCODE": "738099",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.785688738337,
+                    1.43600784336274,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Changi T3 Basement 2 North)",
+                "ADDRESSBLOCKHOUSENUMBER": "24",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "Changi T3 Basement 2 North",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819663",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.98516964608,
+                    1.35437073436533,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Northpoint)",
+                "ADDRESSBLOCKHOUSENUMBER": "2-Mar",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Northpoint",
+                "ADDRESSSTREETNAME": "YISHUN AVENUE 2",
+                "ADDRESSPOSTALCODE": "769098",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.835776493093,
+                    1.42969847788612,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Novena Hospital)",
+                "ADDRESSBLOCKHOUSENUMBER": "08/09/10/11",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Novena Hospital",
+                "ADDRESSSTREETNAME": "IRRAWADDY ROAD",
+                "ADDRESSPOSTALCODE": "329563",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84422625836,
+                    1.3221465582724,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Novena Square)",
+                "ADDRESSBLOCKHOUSENUMBER": "31",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Novena Square",
+                "ADDRESSSTREETNAME": "THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "307683",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.843656768213,
+                    1.32021101149494,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (Our Tampines Hub)",
+                "ADDRESSBLOCKHOUSENUMBER": "29",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "Our Tampines Hub",
+                "ADDRESSSTREETNAME": "TAMPINES WALK",
+                "ADDRESSPOSTALCODE": "528523",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.939683598938,
+                    1.35349615381357,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Singhealth Poly - Marine Parade",
+                "ADDRESSBLOCKHOUSENUMBER": "792",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "MARINE PARADE CENTRAL",
+                "ADDRESSPOSTALCODE": "440080",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.907738801213,
+                    1.30248203604475,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Singhealth Poly - Pasir Ris",
+                "ADDRESSBLOCKHOUSENUMBER": "11",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "PASIR RIS DRIVE 4",
+                "ADDRESSPOSTALCODE": "519457",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.959198003863,
+                    1.36858703758161,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Singhealth Poly - Punggol",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "PUNGGOL DRIVE",
+                "ADDRESSPOSTALCODE": "820681",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.913195749734,
+                    1.40287845229054,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Singhealth Poly - Sengkang",
+                "ADDRESSBLOCKHOUSENUMBER": "6",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "SENGKANG COMMUNITY HUB",
+                "ADDRESSSTREETNAME": "SENGKANG SQUARE",
+                "ADDRESSPOSTALCODE": "545025",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.893906100079,
+                    1.39278559039214,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Singhealth Poly - Tampines",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "TAMPINES POLYCLINIC",
+                "ADDRESSSTREETNAME": "TAMPINES STREET 41",
+                "ADDRESSPOSTALCODE": "529203",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.945849474749,
+                    1.35730995455714,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Specialist Compounding Pharmacy Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "5",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "CENTROS",
+                "ADDRESSSTREETNAME": "BIOPOLIS WAY",
+                "ADDRESSPOSTALCODE": "138668",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.791792664273,
+                    1.30381616023544,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "TAN TOCK SENG HOSPITAL PTE LTD (EMERGENCY PHARMACY)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TAN TOCK SENG HOSPITAL",
+                "ADDRESSSTREETNAME": "JALAN TAN TOCK SENG",
+                "ADDRESSPOSTALCODE": "308433",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845389010681,
+                    1.32171598577179,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "THE DENTAL PHARM",
+                "ADDRESSBLOCKHOUSENUMBER": "3",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "TANJONG PAGAR PLAZA",
+                "ADDRESSPOSTALCODE": "82001",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.842393173168,
+                    1.27559620000156,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "TTSH (CDC Pharmacy - Blk 810 Moulmein Road)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "TAN TOCK SENG HOSPITAL",
+                "ADDRESSSTREETNAME": "JALAN TAN TOCK SENG",
+                "ADDRESSPOSTALCODE": "308433",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845389010681,
+                    1.32171598577179,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tan Tock Seng Hospital (Outpatient & Retail Pharmacy)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "TAN TOCK SENG HOSPITAL",
+                "ADDRESSSTREETNAME": "JALAN TAN TOCK SENG",
+                "ADDRESSPOSTALCODE": "308433",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845389010681,
+                    1.32171598577179,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tan Tock Seng Hospital (Pharmacy  Level 2)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "TAN TOCK SENG HOSPITAL",
+                "ADDRESSSTREETNAME": "JALAN TAN TOCK SENG",
+                "ADDRESSPOSTALCODE": "308433",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845389010681,
+                    1.32171598577179,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "The Dental Pharm",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "NATIONAL DENTAL CENTRE",
+                "ADDRESSSTREETNAME": "SECOND HOSPITAL AVENUE",
+                "ADDRESSPOSTALCODE": "168938",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.838232481914,
+                    1.27975902406242,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "The Japanese Association Clinic  Singapore",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "ADAM ROAD JAPANESE CLUB",
+                "ADDRESSPOSTALCODE": "289899",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.815584351821,
+                    1.3302286871655,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Thomson Medical Centre",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "THOMSON ROAD THOMSON MEDICAL CENTRE",
+                "ADDRESSPOSTALCODE": "307677",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.841448453641,
+                    1.3253640685869,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY (HBF)",
+                "ADDRESSBLOCKHOUSENUMBER": "118",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "HARBOURFRONT CENTRE",
+                "ADDRESSSTREETNAME": "MARITIME SQUARE",
+                "ADDRESSPOSTALCODE": "99253",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.818625583667,
+                    1.26206337173976,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY (HLC)",
+                "ADDRESSBLOCKHOUSENUMBER": "35/36",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "HOUGANG MALL",
+                "ADDRESSSTREETNAME": "HOUGANG AVENUE 10",
+                "ADDRESSPOSTALCODE": "538766",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.893661609335,
+                    1.37231185733402,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY (JEM)",
+                "ADDRESSBLOCKHOUSENUMBER": "37",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "JEM",
+                "ADDRESSSTREETNAME": "JURONG GATEWAY ROAD",
+                "ADDRESSPOSTALCODE": "608549",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.743170429104,
+                    1.33320021580922,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY (PSG)",
+                "ADDRESSBLOCKHOUSENUMBER": "20A",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "PLAZA SINGAPURA",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238839",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845047624011,
+                    1.30074756196425,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY (TBR) Tiong Bahru Plaza",
+                "ADDRESSBLOCKHOUSENUMBER": "117",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TIONG BAHRU PLAZA",
+                "ADDRESSSTREETNAME": "TIONG BAHRU ROAD",
+                "ADDRESSPOSTALCODE": "168732",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.82693508249,
+                    1.28646346132616,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY (TPO)",
+                "ADDRESSBLOCKHOUSENUMBER": "11-Dec",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TAMPINES ONE",
+                "ADDRESSSTREETNAME": "TAMPINES CENTRAL 1",
+                "ADDRESSPOSTALCODE": "529536",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.94501945797,
+                    1.3543155616697,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY (YTP)",
+                "ADDRESSBLOCKHOUSENUMBER": "8-Sep",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "YEWTEE POINT",
+                "ADDRESSSTREETNAME": "CHOA CHU KANG NORTH 6",
+                "ADDRESSPOSTALCODE": "689578",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.746558068394,
+                    1.39730190678225,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (BN(A))",
+                "ADDRESSBLOCKHOUSENUMBER": "147",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "BEDOK NORTH STREET 1",
+                "ADDRESSPOSTALCODE": "460212",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.931640026857,
+                    1.32594069863812,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (EPT)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "5",
+                "ADDRESSBUILDINGNAME": "EASTPOINT MALL",
+                "ADDRESSSTREETNAME": "SIMEI STREET 6",
+                "ADDRESSPOSTALCODE": "528833",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.953024502927,
+                    1.3427061855347,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (HAMK)",
+                "ADDRESSBLOCKHOUSENUMBER": "21/25",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "AMK HUB",
+                "ADDRESSSTREETNAME": "ANG MO KIO AVENUE 3",
+                "ADDRESSPOSTALCODE": "569933",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.848399227484,
+                    1.36924891643767,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (HGLS)",
+                "ADDRESSBLOCKHOUSENUMBER": "35/36",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "HOUGANG MALL",
+                "ADDRESSSTREETNAME": "HOUGANG AVENUE 10",
+                "ADDRESSPOSTALCODE": "538766",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.893661609335,
+                    1.37231185733402,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (HGPT)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "HOUGANG 1",
+                "ADDRESSSTREETNAME": "HOUGANG STREET 91",
+                "ADDRESSPOSTALCODE": "538692",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.879450259184,
+                    1.37566727538473,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (HNEX)",
+                "ADDRESSBLOCKHOUSENUMBER": "37/38",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "NEX",
+                "ADDRESSSTREETNAME": "SERANGOON CENTRAL",
+                "ADDRESSPOSTALCODE": "556083",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8718616202,
+                    1.35067551423922,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (JPT)",
+                "ADDRESSBLOCKHOUSENUMBER": "9",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "JURONG POINT",
+                "ADDRESSSTREETNAME": "JURONG WEST CENTRAL 2",
+                "ADDRESSPOSTALCODE": "648886",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.70646088413,
+                    1.33983015348378,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (LOT1)",
+                "ADDRESSBLOCKHOUSENUMBER": "4-May",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "LOT ONE SHOPPERS MALL",
+                "ADDRESSSTREETNAME": "CHOA CHU KANG AVENUE 4",
+                "ADDRESSPOSTALCODE": "689812",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.744950386857,
+                    1.38506836029318,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (MP)",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "MARINE PARADE BRANCH LIBRARY",
+                "ADDRESSSTREETNAME": "MARINE PARADE CENTRAL",
+                "ADDRESSPOSTALCODE": "449411",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.907112661381,
+                    1.30141955163034,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (OKM)",
+                "ADDRESSBLOCKHOUSENUMBER": "23/24",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "ONE KM",
+                "ADDRESSSTREETNAME": "TANJONG KATONG ROAD",
+                "ADDRESSPOSTALCODE": "437157",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.894480534166,
+                    1.31469214206398,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (PGOL)",
+                "ADDRESSBLOCKHOUSENUMBER": "1-Feb",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "PUNGGOL PLAZA",
+                "ADDRESSSTREETNAME": "PUNGGOL FIELD",
+                "ADDRESSPOSTALCODE": "820168",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.912976447074,
+                    1.39418408936854,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (PGWW)",
+                "ADDRESSBLOCKHOUSENUMBER": "26",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "WATERTOWN",
+                "ADDRESSSTREETNAME": "PUNGGOL CENTRAL",
+                "ADDRESSPOSTALCODE": "828761",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.902073301521,
+                    1.40648143230247,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (PSG)",
+                "ADDRESSBLOCKHOUSENUMBER": "20A",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "PLAZA SINGAPURA",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238839",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845047624011,
+                    1.30074756196425,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (RVAL)",
+                "ADDRESSBLOCKHOUSENUMBER": "16",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "RIVERVALE PLAZA",
+                "ADDRESSSTREETNAME": "RIVERVALE DRIVE",
+                "ADDRESSPOSTALCODE": "540118",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.901558023969,
+                    1.38493201852065,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (SPO)",
+                "ADDRESSBLOCKHOUSENUMBER": "122",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "SINGAPORE POST CENTRE",
+                "ADDRESSSTREETNAME": "EUNOS ROAD 8",
+                "ADDRESSPOSTALCODE": "408600",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.894731356004,
+                    1.3188694092953,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (TAML)",
+                "ADDRESSBLOCKHOUSENUMBER": "12",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TAMPINES MALL",
+                "ADDRESSSTREETNAME": "TAMPINES CENTRAL 5",
+                "ADDRESSPOSTALCODE": "529510",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.94438799002,
+                    1.35267231861995,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (TBRU)",
+                "ADDRESSBLOCKHOUSENUMBER": "117",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TIONG BAHRU PLAZA",
+                "ADDRESSSTREETNAME": "TIONG BAHRU ROAD",
+                "ADDRESSPOSTALCODE": "168732",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.82693508249,
+                    1.28646346132616,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (TGP)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "TANJONG PAGAR PLAZA",
+                "ADDRESSPOSTALCODE": "81005",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.843006119406,
+                    1.27624052704306,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (THDB)",
+                "ADDRESSBLOCKHOUSENUMBER": "2",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TOA PAYOH MRT STATION",
+                "ADDRESSSTREETNAME": "LORONG 6 TOA PAYOH",
+                "ADDRESSPOSTALCODE": "319398",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.847128319359,
+                    1.33289113559556,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (THPZ)",
+                "ADDRESSBLOCKHOUSENUMBER": "102",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "THOMSON PLAZA",
+                "ADDRESSSTREETNAME": "UPPER THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "574408",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.830919790223,
+                    1.3546690242467,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (TMA)",
+                "ADDRESSBLOCKHOUSENUMBER": "13",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TANGLIN MALL",
+                "ADDRESSSTREETNAME": "TANGLIN ROAD",
+                "ADDRESSPOSTALCODE": "247933",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.82385280368,
+                    1.30484344306554,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (TPO)",
+                "ADDRESSBLOCKHOUSENUMBER": "11-Dec",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TAMPINES ONE",
+                "ADDRESSSTREETNAME": "TAMPINES CENTRAL 1",
+                "ADDRESSPOSTALCODE": "529536",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.94501945797,
+                    1.3543155616697,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UARC)",
+                "ADDRESSBLOCKHOUSENUMBER": "4/5/2006",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "PSA BUILDING",
+                "ADDRESSSTREETNAME": "ALEXANDRA ROAD",
+                "ADDRESSPOSTALCODE": "119963",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.801126952741,
+                    1.27367658025915,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UBMC)",
+                "ADDRESSBLOCKHOUSENUMBER": "3531",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "BUKIT MERAH AREA OFFICE",
+                "ADDRESSSTREETNAME": "BUKIT MERAH CENTRAL",
+                "ADDRESSPOSTALCODE": "150166",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.817642878697,
+                    1.28311949916043,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UBPP)",
+                "ADDRESSBLOCKHOUSENUMBER": "6",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "BUKIT PANJANG PLAZA",
+                "ADDRESSSTREETNAME": "JELEBU ROAD",
+                "ADDRESSPOSTALCODE": "677743",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.763993946246,
+                    1.38054245503335,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UBTPZ)",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "BUKIT TIMAH PLAZA",
+                "ADDRESSSTREETNAME": "JALAN ANAK BUKIT",
+                "ADDRESSPOSTALCODE": "588996",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.778560469301,
+                    1.33865677365242,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UGWC)",
+                "ADDRESSBLOCKHOUSENUMBER": "14/15",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "GREAT WORLD CITY",
+                "ADDRESSSTREETNAME": "KIM SENG PROMENADE",
+                "ADDRESSPOSTALCODE": "237994",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.831757914599,
+                    1.29380235820186,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UHBF)",
+                "ADDRESSBLOCKHOUSENUMBER": "118/119",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "HARBOURFRONT CENTRE",
+                "ADDRESSSTREETNAME": "MARITIME SQUARE",
+                "ADDRESSPOSTALCODE": "99253",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.818625583667,
+                    1.26206337173976,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UHJPT )Hyper Jurong Point",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "JURONG POINT",
+                "ADDRESSSTREETNAME": "JURONG WEST CENTRAL 3",
+                "ADDRESSPOSTALCODE": "648331",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.705308194381,
+                    1.33936402101731,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UHLM)",
+                "ADDRESSBLOCKHOUSENUMBER": "64/65",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "HILLION MALL",
+                "ADDRESSSTREETNAME": "PETIR ROAD",
+                "ADDRESSPOSTALCODE": "678278",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.76274117629,
+                    1.37834971441738,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UJEM)",
+                "ADDRESSBLOCKHOUSENUMBER": "37",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "JEM",
+                "ADDRESSSTREETNAME": "JURONG GATEWAY ROAD",
+                "ADDRESSPOSTALCODE": "608549",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.743170429104,
+                    1.33320021580922,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UJX8)",
+                "ADDRESSBLOCKHOUSENUMBER": "16",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "JUNCTION 8 SHOPPING CENTRE",
+                "ADDRESSSTREETNAME": "BISHAN PLACE",
+                "ADDRESSPOSTALCODE": "579837",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.848477635059,
+                    1.35023942096603,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UNPCT) North Point City",
+                "ADDRESSBLOCKHOUSENUMBER": "103-107",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "NORTHPOINT CITY",
+                "ADDRESSSTREETNAME": "NORTHPOINT DRIVE",
+                "ADDRESSPOSTALCODE": "768019",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83614203513,
+                    1.42799995648726,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (USMA)",
+                "ADDRESSBLOCKHOUSENUMBER": "16/17/18",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "THE SELETAR MALL",
+                "ADDRESSSTREETNAME": "SENGKANG WEST AVENUE",
+                "ADDRESSPOSTALCODE": "797653",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.87606766308,
+                    1.39139305906039,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UYSH)",
+                "ADDRESSBLOCKHOUSENUMBER": "3703",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "KHATIB CENTRAL",
+                "ADDRESSSTREETNAME": "YISHUN RING ROAD",
+                "ADDRESSPOSTALCODE": "760849",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.835218185047,
+                    1.41698316124314,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (WGA)",
+                "ADDRESSBLOCKHOUSENUMBER": "21",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "WESTGATE",
+                "ADDRESSSTREETNAME": "GATEWAY DRIVE",
+                "ADDRESSPOSTALCODE": "608532",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.742586016848,
+                    1.33402528926324,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By Fairprice (CIA3)",
+                "ADDRESSBLOCKHOUSENUMBER": "57",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "CHANGI AIRPORT TERMINAL 3",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819663",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.98516964608,
+                    1.35437073436533,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By Fairprice (CLML)",
+                "ADDRESSBLOCKHOUSENUMBER": "11",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "THE CLEMENTI MALL",
+                "ADDRESSSTREETNAME": "COMMONWEALTH AVENUE WEST",
+                "ADDRESSPOSTALCODE": "129588",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.764248204763,
+                    1.31485323068366,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By Fairprice (YTP)",
+                "ADDRESSBLOCKHOUSENUMBER": "8-Sep",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "YEWTEE POINT",
+                "ADDRESSSTREETNAME": "CHOA CHU KANG NORTH 6",
+                "ADDRESSPOSTALCODE": "689578",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.746558068394,
+                    1.39730190678225,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY Waterway Point (WWP)",
+                "ADDRESSBLOCKHOUSENUMBER": "26",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "WATERTOWN",
+                "ADDRESSSTREETNAME": "PUNGGOL CENTRAL",
+                "ADDRESSPOSTALCODE": "828761",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.902073301521,
+                    1.40648143230247,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Unity (HLM) Hillion Mall",
+                "ADDRESSBLOCKHOUSENUMBER": "64/65",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "HILLION MALL",
+                "ADDRESSSTREETNAME": "PETIR ROAD",
+                "ADDRESSPOSTALCODE": "678278",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.76274117629,
+                    1.37834971441738,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Unity By FairPrice (HSPH) Sports Hub",
+                "ADDRESSBLOCKHOUSENUMBER": "29",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Sports Hub",
+                "ADDRESSSTREETNAME": "STADIUM PLACE",
+                "ADDRESSPOSTALCODE": "397628",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.872750703245,
+                    1.30384327307314,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UrbanRx Compounding Pharmacy Pte Ltd",
+                "ADDRESSBLOCKHOUSENUMBER": "38",
+                "ADDRESSFLOORNUMBER": "5",
+                "ADDRESSBUILDINGNAME": "LUCKY PLAZA",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238863",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.833941937816,
+                    1.30448580007632,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "VERTEX PHARMACY PTE. LTD.",
+                "ADDRESSBLOCKHOUSENUMBER": "",
+                "ADDRESSFLOORNUMBER": "",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "SERANGOON ROAD",
+                "ADDRESSPOSTALCODE": "328201",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.865499315882,
+                    1.3242810282521,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Vivahealth Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "850",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "THE BEO CRESCENT",
+                "ADDRESSSTREETNAME": "JALAN BUKIT HO SWEE",
+                "ADDRESSPOSTALCODE": "160034",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.827081283638,
+                    1.28807687668717,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "WATSON'S PERSONAL CARE STORES PTE LTD (WATERWAY POINT)",
+                "ADDRESSBLOCKHOUSENUMBER": "31 TO 32",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "WATERTOWN",
+                "ADDRESSSTREETNAME": "PUNGGOL CENTRAL",
+                "ADDRESSPOSTALCODE": "828761",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.902073301521,
+                    1.40648143230247,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "WATSONS PERSONAL CARE STORES (TIONG BAHRU PLAZA)",
+                "ADDRESSBLOCKHOUSENUMBER": "131 TO 132",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "TIONG BAHRU PLAZA",
+                "ADDRESSSTREETNAME": "TIONG BAHRU ROAD",
+                "ADDRESSPOSTALCODE": "168732",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.82693508249,
+                    1.28646346132616,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "WESTMEAD PHARMACY PTE LTD",
+                "ADDRESSBLOCKHOUSENUMBER": "10",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "LIAN SOON AMENITY CENTRE",
+                "ADDRESSSTREETNAME": "ALPS AVENUE",
+                "ADDRESSPOSTALCODE": "498787",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.002513658565,
+                    1.37576196236282,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "WOODS PHARMACY PTE LTD",
+                "ADDRESSBLOCKHOUSENUMBER": "19",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "WOODLANDS STREET 12",
+                "ADDRESSPOSTALCODE": "738623",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.779746869404,
+                    1.43351253440852,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Store Pte Ltd (Lucky Plaza)",
+                "ADDRESSBLOCKHOUSENUMBER": "26-30/39-42",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "LUCKY PLAZA",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238863",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.833941937816,
+                    1.30448580007632,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Bedok Central)",
+                "ADDRESSBLOCKHOUSENUMBER": "735/737",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "Bedok Central",
+                "ADDRESSSTREETNAME": "NEW UPPER CHANGI ROAD",
+                "ADDRESSPOSTALCODE": "460211",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.931967583215,
+                    1.32550084935603,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Bedok Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "Dec-13",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "BEDOK MALL",
+                "ADDRESSSTREETNAME": "NEW UPPER CHANGI ROAD",
+                "ADDRESSPOSTALCODE": "467360",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.929267657363,
+                    1.32477208083125,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Bugis Junction)",
+                "ADDRESSBLOCKHOUSENUMBER": "27 TO 33/33A",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "BUGIS JUNCTION",
+                "ADDRESSSTREETNAME": "VICTORIA STREET",
+                "ADDRESSPOSTALCODE": "188021",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.85532795899,
+                    1.29906798897959,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Bukit Panjang Plaza)",
+                "ADDRESSBLOCKHOUSENUMBER": "30/31",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "BUKIT PANJANG PLAZA",
+                "ADDRESSSTREETNAME": "JELEBU ROAD",
+                "ADDRESSPOSTALCODE": "677743",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.763993946246,
+                    1.38054245503335,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Causeway Point)",
+                "ADDRESSBLOCKHOUSENUMBER": "14/15",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "CAUSEWAY POINT",
+                "ADDRESSSTREETNAME": "WOODLANDS SQUARE",
+                "ADDRESSPOSTALCODE": "738099",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.785688738337,
+                    1.43600784336274,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Changi Airport T3 Basement)",
+                "ADDRESSBLOCKHOUSENUMBER": "24",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "CHANGI AIRPORT TERMINAL 3",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819663",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.98516964608,
+                    1.35437073436533,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Changi Airport T3 Check in Hall)",
+                "ADDRESSBLOCKHOUSENUMBER": "95/96",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "CHANGI AIRPORT TERMINAL 3",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819663",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.98516964608,
+                    1.35437073436533,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Changi Airport T4 Check in Hall)",
+                "ADDRESSBLOCKHOUSENUMBER": "7",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "CHANGI AIRPORT TERMINAL 4",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819665",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.983569030385,
+                    1.33826733905461,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Changi Airport Terminal 3 Transit North)",
+                "ADDRESSBLOCKHOUSENUMBER": "66",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "CHANGI AIRPORT TERMINAL 3",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819663",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.98516964608,
+                    1.35437073436533,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Changi Airport Terminal 3 Transit)",
+                "ADDRESSBLOCKHOUSENUMBER": "29",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "CHANGI AIRPORT TERMINAL 3",
+                "ADDRESSSTREETNAME": "AIRPORT BOULEVARD",
+                "ADDRESSPOSTALCODE": "819663",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.98516964608,
+                    1.35437073436533,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Clementi Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "37/38/39",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "THE CLEMENTI MALL",
+                "ADDRESSSTREETNAME": "COMMONWEALTH AVENUE WEST",
+                "ADDRESSPOSTALCODE": "129588",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.764248204763,
+                    1.31485323068366,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Compass One)",
+                "ADDRESSBLOCKHOUSENUMBER": "9",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "COMPASS ONE",
+                "ADDRESSSTREETNAME": "SENGKANG SQUARE",
+                "ADDRESSPOSTALCODE": "545078",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.89498002896,
+                    1.39209415560853,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Great World City)",
+                "ADDRESSBLOCKHOUSENUMBER": "53A/54",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "GREAT WORLD CITY",
+                "ADDRESSSTREETNAME": "KIM SENG PROMENADE",
+                "ADDRESSPOSTALCODE": "237994",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.831757914599,
+                    1.29380235820186,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Heartbeat@bedok)",
+                "ADDRESSBLOCKHOUSENUMBER": "08 TO 10",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "HEARTBEAT @ BEDOK",
+                "ADDRESSSTREETNAME": "BEDOK NORTH STREET 1",
+                "ADDRESSPOSTALCODE": "469662",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.931663531574,
+                    1.32699717215909,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Hougang Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "2",
+                "ADDRESSFLOORNUMBER": "3",
+                "ADDRESSBUILDINGNAME": "HOUGANG MALL",
+                "ADDRESSSTREETNAME": "HOUGANG AVENUE 10",
+                "ADDRESSPOSTALCODE": "538766",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.893661609335,
+                    1.37231185733402,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (IMM)",
+                "ADDRESSBLOCKHOUSENUMBER": "54/55",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "IMM BUILDING",
+                "ADDRESSSTREETNAME": "JURONG EAST STREET 21",
+                "ADDRESSPOSTALCODE": "609601",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.74663823992,
+                    1.33502430217022,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (International Plaza)",
+                "ADDRESSBLOCKHOUSENUMBER": "62-67",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "INTERNATIONAL PLAZA",
+                "ADDRESSSTREETNAME": "ANSON ROAD",
+                "ADDRESSPOSTALCODE": "79903",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.845703221284,
+                    1.2757356907569,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Jem)",
+                "ADDRESSBLOCKHOUSENUMBER": "7",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "JEM",
+                "ADDRESSSTREETNAME": "JURONG GATEWAY ROAD",
+                "ADDRESSPOSTALCODE": "608549",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.743170429104,
+                    1.33320021580922,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Junction 8)",
+                "ADDRESSBLOCKHOUSENUMBER": "45/46",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "JUNCTION 8 SHOPPING CENTRE",
+                "ADDRESSSTREETNAME": "BISHAN PLACE",
+                "ADDRESSPOSTALCODE": "579837",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.848477635059,
+                    1.35023942096603,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Jurong Point)",
+                "ADDRESSBLOCKHOUSENUMBER": "Dec-13",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "JURONG POINT",
+                "ADDRESSSTREETNAME": "JURONG WEST CENTRAL 2",
+                "ADDRESSPOSTALCODE": "648886",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.70646088413,
+                    1.33983015348378,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Marina Bay Financial Centre)",
+                "ADDRESSBLOCKHOUSENUMBER": "57/58/59",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "MARINA BAY LINK MALL",
+                "ADDRESSSTREETNAME": "MARINA BOULEVARD",
+                "ADDRESSPOSTALCODE": "18984",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.853349299215,
+                    1.28022768611889,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Marina Square)",
+                "ADDRESSBLOCKHOUSENUMBER": "212",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "MARINA SQUARE",
+                "ADDRESSSTREETNAME": "RAFFLES BOULEVARD",
+                "ADDRESSPOSTALCODE": "39594",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.857007334718,
+                    1.29145527172639,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (NEX)",
+                "ADDRESSBLOCKHOUSENUMBER": "57",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "NEX",
+                "ADDRESSSTREETNAME": "SERANGOON CENTRAL",
+                "ADDRESSPOSTALCODE": "556083",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8718616202,
+                    1.35067551423922,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Ngee Ann City)",
+                "ADDRESSBLOCKHOUSENUMBER": "6-Sep",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "NGEE ANN CITY",
+                "ADDRESSSTREETNAME": "ORCHARD RD",
+                "ADDRESSPOSTALCODE": "238872",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.834676130167,
+                    1.30242417909429,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (North Point)",
+                "ADDRESSBLOCKHOUSENUMBER": "161/162/163/164",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "NORTHPOINT CITY",
+                "ADDRESSSTREETNAME": "NORTHPOINT DRIVE",
+                "ADDRESSPOSTALCODE": "768019",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83614203513,
+                    1.42799995648726,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Novena Square)",
+                "ADDRESSBLOCKHOUSENUMBER": "6/7/2009",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "NOVENA SQUARE",
+                "ADDRESSSTREETNAME": "THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "307683",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.843656768213,
+                    1.32021101149494,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (One@Kentridge)",
+                "ADDRESSBLOCKHOUSENUMBER": "33",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "NUH MEDICAL CENTRE",
+                "ADDRESSSTREETNAME": "LOWER KENT RIDGE ROAD",
+                "ADDRESSPOSTALCODE": "119082",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.784084013897,
+                    1.29277432153154,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Paragon)",
+                "ADDRESSBLOCKHOUSENUMBER": "32/33/37",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "THE PARAGON",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238859",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.835240316416,
+                    1.30372321734212,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Parkway Parade)",
+                "ADDRESSBLOCKHOUSENUMBER": "14/15/16",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "PARKWAY PARADE",
+                "ADDRESSSTREETNAME": "MARINE PARADE ROAD",
+                "ADDRESSPOSTALCODE": "449269",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.905113594951,
+                    1.30119132286102,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Raffles City)",
+                "ADDRESSBLOCKHOUSENUMBER": "42",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "RAFFLES CITY SHOPPING CENTRE",
+                "ADDRESSSTREETNAME": "NORTH BRIDGE ROAD",
+                "ADDRESSPOSTALCODE": "179103",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.853119913433,
+                    1.29389358572057,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Resort World Sentosa)",
+                "ADDRESSBLOCKHOUSENUMBER": "71",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "RESORTS WORLD SENTOSA",
+                "ADDRESSSTREETNAME": "SENTOSA GATEWAY",
+                "ADDRESSPOSTALCODE": "98138",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.819935358828,
+                    1.25629973367949,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Royal Square)",
+                "ADDRESSBLOCKHOUSENUMBER": "2-Apr",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "Royal Square",
+                "ADDRESSSTREETNAME": "IRRAWADDY ROAD",
+                "ADDRESSPOSTALCODE": "329566",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.843219262774,
+                    1.32057156809253,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Tampines Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "7/8/2009",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "TAMPINES MALL",
+                "ADDRESSSTREETNAME": "TAMPINES CENTRAL 5",
+                "ADDRESSPOSTALCODE": "529510",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.94438799002,
+                    1.35267231861995,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Toa Payoh HDB Hub)",
+                "ADDRESSBLOCKHOUSENUMBER": "510",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "LORONG 6 TOA PAYOH",
+                "ADDRESSPOSTALCODE": "310190",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.847965424321,
+                    1.33297561827727,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (United Square)",
+                "ADDRESSBLOCKHOUSENUMBER": "53",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "UNITED SQUARE",
+                "ADDRESSSTREETNAME": "THOMSON ROAD",
+                "ADDRESSPOSTALCODE": "307591",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.843463176991,
+                    1.31733463710903,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (Vivo City)",
+                "ADDRESSBLOCKHOUSENUMBER": "15-17",
+                "ADDRESSFLOORNUMBER": "B2",
+                "ADDRESSBUILDINGNAME": "VIVO CITY",
+                "ADDRESSSTREETNAME": "HARBOURFRONT WALK",
+                "ADDRESSPOSTALCODE": "98585",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.821589252212,
+                    1.26389582040559,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd (West Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "26/27",
+                "ADDRESSFLOORNUMBER": "2",
+                "ADDRESSBUILDINGNAME": "WEST MALL",
+                "ADDRESSSTREETNAME": "BUKIT BATOK CENTRAL LINK",
+                "ADDRESSPOSTALCODE": "658713",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.749021980031,
+                    1.35018915711658,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Watson's Personal Care Stores Pte Ltd Ion Orchard",
+                "ADDRESSBLOCKHOUSENUMBER": "12",
+                "ADDRESSFLOORNUMBER": "B4",
+                "ADDRESSBUILDINGNAME": "ION ORCHARD",
+                "ADDRESSSTREETNAME": "ORCHARD TURN",
+                "ADDRESSPOSTALCODE": "238801",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.831395138107,
+                    1.30403578206272,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Welcia-BHG Bugis Junction",
+                "ADDRESSBLOCKHOUSENUMBER": "18",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "BUGIS JUNCTION",
+                "ADDRESSSTREETNAME": "VICTORIA STREET",
+                "ADDRESSPOSTALCODE": "188024",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.855786974721,
+                    1.3001424905036,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Welcia-BHG Northpoint City",
+                "ADDRESSBLOCKHOUSENUMBER": "149",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "NORTHPOINT CITY",
+                "ADDRESSSTREETNAME": "NORTHPOINT DRIVE",
+                "ADDRESSPOSTALCODE": "768019",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83614203513,
+                    1.42799995648726,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "West Point Hospital Pharmacy",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "WESTPOINT FAMILY HOSPITAL",
+                "ADDRESSSTREETNAME": "CORPORATION DR",
+                "ADDRESSPOSTALCODE": "619771",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.72300155644,
+                    1.33105591829525,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "CONCORD HEALTHCARE RETAIL PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "1",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "ADAM ROAD",
+                "ADDRESSPOSTALCODE": "289891",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.813318182192,
+                    1.32680246385575,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (White Sands Mall)",
+                "ADDRESSBLOCKHOUSENUMBER": "12",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "White Sands Mall",
+                "ADDRESSSTREETNAME": "PASIR RIS CENTRAL STREET 3",
+                "ADDRESSPOSTALCODE": "518457",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.949715696944,
+                    1.37244980890777,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "MUSTAFA PHARMACY",
+                "ADDRESSBLOCKHOUSENUMBER": "0",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "MUSTAFA",
+                "ADDRESSSTREETNAME": "SYED ALWI ROAD",
+                "ADDRESSPOSTALCODE": "207713",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.856508109061,
+                    1.30906470546815,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guardian Pharmacy (International Building)",
+                "ADDRESSBLOCKHOUSENUMBER": "18",
+                "ADDRESSFLOORNUMBER": "1",
+                "ADDRESSBUILDINGNAME": "International Building",
+                "ADDRESSSTREETNAME": "ORCHARD ROAD",
+                "ADDRESSPOSTALCODE": "238869",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.831003324156,
+                    1.30607516858878,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "UNITY By FairPrice (UWSA)",
+                "ADDRESSBLOCKHOUSENUMBER": "2",
+                "ADDRESSFLOORNUMBER": "B1",
+                "ADDRESSBUILDINGNAME": "",
+                "ADDRESSSTREETNAME": "PASIR RIS CENTRAL STREET 3",
+                "ADDRESSPOSTALCODE": "518457",
+                "HYPERLINK": "",
+                "PHOTOURL": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.949715696944,
+                    1.37244980890777,
+                    0.0
+                ]
+            }
+        }
+    ]
 }
