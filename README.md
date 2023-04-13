@@ -1,6 +1,6 @@
 # Silverfun Web App
 
-### Introduction & Explanation
+## Introduction & Explanation
 SilverFun is a one-stop elderly care application for elderly or caregivers who want to find information to best help the elderly in their family or IT-literate elderly and empower the elderly to be more active members of society.
 
 Despite initially harbouring negative attitudes towards technology, many elderly individuals still use it voluntarily for the top 3 activities of communication (80%), leisure (51%) and obtaining information (51%). However, they often encounter challenges such as:
