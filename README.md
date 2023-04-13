@@ -31,7 +31,7 @@ To install required dependencies, follow steps below.
 1. Install npm
 2. Install required npm dependencies
 ``` 
-npm i npm-install-peers
+npm i
 ```
 
 ### Start Application
